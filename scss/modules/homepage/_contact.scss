@@ -1,0 +1,29 @@
+input, textarea{
+	background-color: transparent;
+}
+
+.bg-dark{
+	input, textarea{
+		border-bottom: solid 1px $white;
+	}
+}
+
+#home_contact{
+	text-align: center;
+}
+
+::-webkit-input-placeholder {
+   color: palette(gray, light);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: palette(gray, light);  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: palette(gray, light);  
+}
+
+:-ms-input-placeholder {  
+   color: palette(gray, light);  
+}

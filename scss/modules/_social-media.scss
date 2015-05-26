@@ -1,0 +1,16 @@
+.social-media{
+	display: inline-block;
+	margin-left: 20px;
+}
+.social-media-icon{
+	display: inline-block;
+	margin-right: 10px;
+	a{
+		width: 30px;
+		height: 30px;
+		display: block;
+		text-indent: -9999px;
+		background: $blue;
+		border-radius: 50%;
+	}
+}

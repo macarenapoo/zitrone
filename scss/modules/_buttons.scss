@@ -1,0 +1,32 @@
+// ==========================================================================
+// Buttons
+// ==========================================================================
+
+.btn {
+	@include bg-colors($ui-colors);
+}
+
+[class^="btn--"] {
+  @extend %center-align;
+  @extend %btn;
+  margin-bottom: em(20px, 14px); 
+  @media (min-width: 1px) and (max-width: 768px) {
+  	width: 100%;
+  }
+  @media (min-width: 769px) { 
+    width: auto;
+    display: inline-block;
+    @include doubly(20px);
+  }
+}
+
+.btn{
+  padding: 10px 50px;
+  border: solid 1px $white;
+  float: right;
+  margin: 40px 0;
+  color: white;
+  text-transform: uppercase;
+  font-family: $font-family--secondary;
+  font-size: em(20px);
+}

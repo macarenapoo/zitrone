@@ -1,0 +1,29 @@
+.testimonials{
+	border-top: solid 10px $green;
+	padding: 75px;
+}
+
+blockquote{
+	border: none;
+	font-size: 1em;
+	padding: 0 10%;
+	margin: 0;
+	font-style: normal;
+	text-align: center;
+	footer{
+		p{
+			margin: 0;
+			color: palette(gray, light);
+		}
+	}
+}
+
+cite{
+	color: $green;
+	font-style: normal;
+}
+
+#home_testimonials{
+	padding: 0px;
+	border-top: solid 1px palette(gray, x-light);
+}

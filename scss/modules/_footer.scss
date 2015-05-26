@@ -1,0 +1,10 @@
+.main-footer{
+	background-color: palette(gray, light);
+	color: $white;
+	text-transform: uppercase;
+	padding: 20px 0;
+	font-size: em(14px);
+	a{
+		color: $green;
+	}
+}

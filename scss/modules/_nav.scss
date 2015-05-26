@@ -1,0 +1,62 @@
+// ==========================================================================
+// Nav
+// ==========================================================================
+
+.nav {
+  margin-top: em(20px);
+  margin-bottom: em(30px);
+  
+  @include e(item) {
+    @extend %nav-item-disp;
+    a {
+      @extend %nav-item-link;
+      color: palette(grey);
+      &:hover {
+        @extend %nav-item-on;  
+      }
+    }
+    @include m(current) { 
+      @extend %nav-item-disp;
+      a {
+        @extend %nav-item-link;
+        @extend %nav-item-on;
+      }
+    }
+  }
+}
+
+nav.main-menu{
+  font-family: $font-family--secondary;
+  text-transform: uppercase;
+  font-size: em(20px);
+  letter-spacing: 1px;
+  ul{
+    text-align: justify;
+    &:after{
+      content: '';
+      width: 100%;
+      display: inline-block;
+    }
+  }
+  li{
+    display: inline-block;
+    width: 24%;
+    &.active{
+      background-color: palette(grey, xx-light);
+      border-top: solid 5px $green;
+      a{
+        color: $green;
+      }
+    }
+
+  }
+  a{
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    display: block;
+    &:hover{
+      color: $green;
+    }
+  }
+}

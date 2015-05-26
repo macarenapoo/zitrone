@@ -1,0 +1,53 @@
+.tabs-panel{
+	border: solid 1px $white;
+	display: flex;
+	margin: 40px auto;
+	nav{
+		display: inline-block;
+		font-family: $font-family--secondary;
+		font-size: em(18px);
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		min-width: 200px;
+		border-right: solid 1px $white;
+		flex: 0 0 30%;
+		li{
+			border-bottom: solid 1px $white;
+			&:last-of-type{
+				border: none;
+			}
+			&.active{
+				background: $green;
+				a{
+					color: $grey;
+				}
+			}
+		}
+		a{
+			color: $white;
+			display: block;
+			padding: 15px 20px;
+		}
+	}
+	.content{
+		display: inline-block;
+		height: 290px;
+		section{
+			display: none;
+			height: 100%;
+			width: 50%;
+			float: right;
+			background: $green;
+			padding: 50px;
+			h1{
+				font-size: em(28px);
+			}
+			p{
+				font-size: em(14px);
+			}
+			&.current{
+				display: block;
+			}
+		}
+	}
+}
