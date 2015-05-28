@@ -31,16 +31,10 @@ nav.main-menu{
   font-size: em(20px);
   letter-spacing: 1px;
   ul{
-    text-align: justify;
-    &:after{
-      content: '';
-      width: 100%;
-      display: inline-block;
-    }
+    display: flex;
   }
   li{
-    display: inline-block;
-    width: 24%;
+    flex: 1;
     &.active{
       background-color: palette(grey, xx-light);
       border-top: solid 5px $green;

@@ -4,8 +4,40 @@ input, textarea{
 
 .bg-dark{
 	input, textarea{
-		border-bottom: solid 1px $white;
+
 	}
+	form{
+		.field{
+			border-bottom: solid 1px $white;
+			position: relative;
+			padding-left: 40px;
+		}
+	}
+	label.icon_form{
+		position: absolute;
+		left: 0;
+		background-image: url($path--rel+"/contact_icons.png");
+		width: 30px;
+		height: 30px;
+		top: 10px;
+		left: 10px;
+		text-indent: -9999px;
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		&.company{
+			 background-position: 0 0px;
+		}
+		&.contact{
+			 background-position: 0 -30px;
+		}
+		&.phone{
+			 background-position: 0 -60px;
+		}
+		&.email{
+			 background-position: 0 -90px;
+		}
+	}
+	
 }
 
 #home_contact{

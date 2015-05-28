@@ -7,3 +7,31 @@
 // Contact
 // ==========================================================================
 @import 'contact';
+
+#home_banner{
+	background-size: 100% auto;
+	background-position: center;
+}
+
+#home_banner_2{
+	padding: 0;
+	background-size: 100% auto;
+	background-position: center;
+	.grid{
+		background: rgba(0,0,0,0.26);
+		width: 100%;
+		max-width: none;
+		padding: 70px 0;
+		color: $white;
+		h2{
+			text-align: center;
+			color: $white;
+			font-size: 2.3em;
+		}
+		.grid__col--6{
+			@extend .centered;
+			width: 60%;
+			text-align: center;
+		}
+	}
+}
