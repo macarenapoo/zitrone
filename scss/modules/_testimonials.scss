@@ -11,6 +11,22 @@ blockquote{
 	font-style: normal;
 	text-align: center;
 	footer{
+		display: table;
+		margin: 0 auto;
+		.logo{
+			display: table-cell;
+			width: 100px;
+			height: 80px;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+		.cite{
+			display: table-cell;
+			vertical-align: middle;
+			padding-left: 20px;
+			text-align: left;
+		}
 		p{
 			margin: 0;
 			color: palette(gray, light);

@@ -719,9 +719,24 @@ blockquote {
   margin: 0;
   font-style: normal;
   text-align: center; }
-  blockquote footer p {
-    margin: 0;
-    color: #5f737f; }
+  blockquote footer {
+    display: table;
+    margin: 0 auto; }
+    blockquote footer .logo {
+      display: table-cell;
+      width: 100px;
+      height: 80px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center; }
+    blockquote footer .cite {
+      display: table-cell;
+      vertical-align: middle;
+      padding-left: 20px;
+      text-align: left; }
+    blockquote footer p {
+      margin: 0;
+      color: #5f737f; }
 
 cite {
   color: #9fcf67;
@@ -754,6 +769,37 @@ cite {
     text-indent: -9999px;
     background: #bde3f6;
     border-radius: 50%; }
+
+.clients-slider {
+  width: 80%;
+  margin: 0 auto; }
+  .clients-slider .slick-track {
+    height: 250px; }
+    .clients-slider .slick-track .slick-slide {
+      height: inherit;
+      padding: 10px 20px; }
+      .clients-slider .slick-track .slick-slide a {
+        display: table-cell;
+        height: inherit;
+        vertical-align: middle; }
+  .clients-slider .slick-prev, .clients-slider .slick-next {
+    width: 20px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .3;
+    transition: all .2s ease-out; }
+    .clients-slider .slick-prev:hover, .clients-slider .slick-next:hover {
+      opacity: 1; }
+    .clients-slider .slick-prev:before, .clients-slider .slick-next:before {
+      display: none; }
+  .clients-slider .slick-prev {
+    background-image: url("images/slider-clients-back-arrow.png");
+    left: -50px; }
+  .clients-slider .slick-next {
+    background-image: url("images/slider-clients-next-arrow.png");
+    right: -50px; }
 
 input, textarea {
   background-color: transparent; }
