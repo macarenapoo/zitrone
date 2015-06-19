@@ -1,0 +1,1 @@
+function init_slick(){$("#clients-slider-js").slick({infinite:!0,slidesToShow:5,slidesToScroll:3,speed:600,dots:!0}),$("#testimonials-slider-js").slick({adaptiveHeight:!0,infinite:!0,speed:1e3,autoplay:!0,autoplaySpeed:7e3,pauseOnHover:!1,arrows:!1})}$(document).ready(function(){init_slick()});

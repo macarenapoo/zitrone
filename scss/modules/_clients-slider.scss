@@ -1,0 +1,42 @@
+.clients-slider{
+	width: 80%;
+	margin: 0 auto;
+	.slick-track{
+		height: 250px;
+		.slick-slide{
+			height: inherit;
+			padding: 10px 20px;
+			a{
+				display: table-cell;
+				height: inherit;
+				vertical-align: middle;
+				img{
+
+				}
+			}
+		}
+	}
+	.slick-prev, .slick-next{
+		width: 20px;
+		height: 40px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		opacity: .3;
+		transition: all .2s ease-out;
+		&:hover{
+			opacity: 1;
+		}
+		&:before{
+			display: none;
+		}
+	}
+	.slick-prev{
+		background-image: url('images/slider-clients-back-arrow.png');
+		left: -50px;
+	}
+	.slick-next{
+		background-image: url('images/slider-clients-next-arrow.png');
+		right: -50px;
+	}
+}
