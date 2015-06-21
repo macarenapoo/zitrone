@@ -24,7 +24,7 @@
 							<li class="active"><a href="#">Services</a></li>
 							<li><a href="#">About us</a></li>
 							<li><a href="#">Clients</a></li>
-							<li><a href="#">Contact Us</a></li>
+							<li><a href="#">Contact Us NOW!</a></li>
 						</ul>
 					</nav>
 				</div>
