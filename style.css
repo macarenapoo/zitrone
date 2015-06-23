@@ -27,6 +27,12 @@
   margin-left: auto;
   margin-right: auto; }
 
+.fr {
+  float: right; }
+
+.fl {
+  float: left; }
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -544,6 +550,32 @@ h2, .headline-secondary, .headline-secondary--grouped {
 .form__btn {
   background: #52bab3; }
 
+.form_checkbox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto; }
+  .form_checkbox li {
+    width: 33%;
+    margin: 12px 0;
+    display: flex; }
+    .form_checkbox li span {
+      width: 20px;
+      height: 20px;
+      border: solid 1px #fff;
+      display: inline-block;
+      margin-right: 10px; }
+
+textarea.lines {
+  background-color: transparent;
+  background-image: linear-gradient(#fff 0px, transparent 2px);
+  background-size: 100% 2em;
+  background-position: 0 -2px;
+  padding: 0;
+  height: 100px;
+  line-height: 2em;
+  margin-top: 20px; }
+
 .btn--default {
   background-color: #52bab3; }
 .btn--success {
@@ -570,12 +602,14 @@ h2, .headline-secondary, .headline-secondary--grouped {
 .btn {
   padding: 10px 50px;
   border: solid 1px #fff;
-  float: right;
   margin: 40px 0;
   color: white;
   text-transform: uppercase;
   font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif;
   font-size: 1.25em; }
+  .btn.submit {
+    border-color: #9fcf67;
+    color: #9fcf67; }
 
 .navbar {
   position: relative;
@@ -771,6 +805,7 @@ cite {
     border-radius: 50%; }
 
 .clients-slider {
+  display: none;
   width: 80%;
   margin: 0 auto; }
   .clients-slider .slick-track {
@@ -828,8 +863,45 @@ input, textarea {
   .bg-dark label.icon_form.email {
     background-position: 0 -90px; }
 
-#home_contact {
-  text-align: center; }
+#home_contact .info {
+  text-align: center;
+  margin-bottom: 50px; }
+
+.form_checkbox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto; }
+  .form_checkbox li {
+    width: 33%;
+    margin: 12px 0;
+    display: flex;
+    cursor: pointer; }
+    .form_checkbox li span {
+      width: 20px;
+      height: 20px;
+      border: solid 1px #fff;
+      display: inline-block;
+      margin-right: 10px; }
+    .form_checkbox li.checked span:before {
+      content: '\f00c';
+      font-family: 'FontAwesome';
+      font-size: 15px;
+      height: 100%;
+      display: block;
+      color: #9fcf67;
+      text-align: center;
+      margin-top: -2px; }
+
+textarea.lines {
+  background-color: transparent;
+  background-image: linear-gradient(#fff 0px, transparent 2px);
+  background-size: 100% 2em;
+  background-position: 0 -2px;
+  padding: 0;
+  height: 100px;
+  line-height: 2em;
+  margin-top: 20px; }
 
 ::-webkit-input-placeholder {
   color: #5f737f; }

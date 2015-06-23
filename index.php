@@ -58,16 +58,20 @@
 				</div>
 			</section>
 			<section id="home_clients">
-				<div class="clients-slider" id="clients-slider-js">
-					<div><a href="#"><img src="images/uploads/clients_american-express.png"/></a></div>
-					<div><a href="#"><img src="images/uploads/clients_dhl.jpg"/></a></div>
-					<div><a href="#"><img src="images/uploads/clients_estee-lauder.jpg"/></a></div>
-					<div><a href="#"><img src="images/uploads/clients_gbm.jpg"/></a></div>
-					<div><a href="#"><img src="images/uploads/clients_sephora.png"/></a></div>
-					<div><a href="#"><img src="images/uploads/clients_shcp.jpg"/></a></div>
-					<div><a href="#"><img src="images/uploads/clients_spartan-race.jpg"/></a></div>
-					<div><a href="#"><img src="images/uploads/clients_total-running.jpg"/></a></div>
-					<div><a href="#"><img src="images/uploads/clients_tupperware.jpg"/></a></div>
+				<div class="grid">
+					<div class="grid__col--16">
+						<div class="clients-slider" id="clients-slider-js">
+							<div><a href="#"><img src="images/uploads/clients_american-express.png"/></a></div>
+							<div><a href="#"><img src="images/uploads/clients_dhl.jpg"/></a></div>
+							<div><a href="#"><img src="images/uploads/clients_estee-lauder.jpg"/></a></div>
+							<div><a href="#"><img src="images/uploads/clients_gbm.jpg"/></a></div>
+							<div><a href="#"><img src="images/uploads/clients_sephora.png"/></a></div>
+							<div><a href="#"><img src="images/uploads/clients_shcp.jpg"/></a></div>
+							<div><a href="#"><img src="images/uploads/clients_spartan-race.jpg"/></a></div>
+							<div><a href="#"><img src="images/uploads/clients_total-running.jpg"/></a></div>
+							<div><a href="#"><img src="images/uploads/clients_tupperware.jpg"/></a></div>
+						</div>
+					</div>
 				</div>
 			</section> 
 			<section id="home_testimonials">
@@ -118,25 +122,43 @@
 				<div class="grid">
 					<div class="grid__col--10 centered">
 						<h1>Contact us</h1>
-						<p>Get in touch with us to find out how we can help your employees have a helthier work place. Fill out this form and we will contact you as soon as possible to provide more information on our custom solutions for your business.</p>
+						<p class="info">Get in touch with us to find out how we can help your employees have a helthier work place. Fill out this form and we will contact you as soon as possible to provide more information on our custom solutions for your business.</p>
 						<form>
-							<div class="field">
-								<label class="icon_form company">Company</label>
-								<input type="text" placeholder="Company" class="company">
+							<div class="home-form">
+								<div>
+									<div class="field">
+										<label class="icon_form company">Company</label>
+										<input type="text" placeholder="Company" class="company">
+									</div>
+									<div class="field">
+										<label class="icon_form contact">Company</label>
+										<input type="text" placeholder="Contact Name">
+									</div>
+									<div class="field">
+										<label class="icon_form phone">Company</label>
+										<input type="text" placeholder="Contact Phone Number">
+									</div>
+									<div class="field">
+										<label class="icon_form email">Company</label>
+										<input type="text" placeholder="Contact Email">
+									</div>
+									<a href="#" class="btn fr" id="home_form_next_btn">Next</a>
+								</div>	
+								<div>
+									<p>What services are you interested in?</p>
+								  <input type="hidden" name="services"/>
+								  <ul class="form_checkbox">
+								  	<li><span></span>Dinning Hall</li>
+								  	<li><span></span>Food Cart</li>
+								  	<li><span></span>Catering</li>
+								  	<li><span></span>Food Courts</li>
+								  	<li><span></span>Zitrone Cafe</li>
+								  </ul>
+							  	<textarea placeholder="Additional Comments" class="lines" name="comments"></textarea>
+							  	<a href="#" class="btn fl" id="home_form_prev_btn">Back</a>
+							  	<a href="#" class="btn fr submit">Send</a>
+							  </div>
 							</div>
-							<div class="field">
-								<label class="icon_form contact">Company</label>
-								<input type="text" placeholder="Contact Name">
-							</div>
-							<div class="field">
-								<label class="icon_form phone">Company</label>
-								<input type="text" placeholder="Contact Phone Number">
-							</div>
-							<div class="field">
-								<label class="icon_form email">Company</label>
-								<input type="text" placeholder="Contact Email">
-							</div>
-							<a href="#" class="btn">Next</a>
 						</form>
 					</div>
 				</div>
