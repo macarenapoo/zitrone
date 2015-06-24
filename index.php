@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 
 		<div class="main homepage">
-			<section id="home_banner_2" style="background-image: url('images/uploads/banner_main_bg-image.jpg')">
+			<section class="main_banner" style="background-image: url('images/uploads/banner_main_bg-image.jpg')">
 				<div class="grid">
 					<div class="grid__col--6">
 						<h2>Made fresh and with care</h2>
@@ -104,7 +104,7 @@
 							</li>
 							<li class="testimonial">
 								<blockquote>
-									<p>Aliquam erat volutpat. Aenean nisi mi, sollicitudin nec aliquet at, laoreet a urna. Donec neque dui, suscipit nec tristique id, accumsan venenatis eros. Nullam vestibulum vulputate erat, in dictum tellus posuere a. Vivamus nec ex eget mauris ultricies maximus. In finibus iaculis magna, eget porta nisi feugiat pretium. Sed placerat orci sed justo mattis, ut volutpat nisl bibendum.</p>
+									<p>Aliquam erat volutpat. Aenean nisi mi, sollicitudin nec aliquet at, laoreet a urna. Donec neque dui, suscipit nec tristique id, accumsan venenatis eros.</p>
 									<footer>
 										<div class="logo" style="background-image:url(images/uploads/clients_gbm.jpg)"></div>
 										<div class="cite">
@@ -125,7 +125,7 @@
 						<p class="info">Get in touch with us to find out how we can help your employees have a helthier work place. Fill out this form and we will contact you as soon as possible to provide more information on our custom solutions for your business.</p>
 						<form>
 							<div class="home-form">
-								<div>
+								<div class="slide">
 									<div class="field">
 										<label class="icon_form company">Company</label>
 										<input type="text" placeholder="Company" class="company">
@@ -144,7 +144,7 @@
 									</div>
 									<a href="#" class="btn fr" id="home_form_next_btn">Next</a>
 								</div>	
-								<div>
+								<div class="slide">
 									<p>What services are you interested in?</p>
 								  <input type="hidden" name="services"/>
 								  <ul class="form_checkbox">

@@ -22,7 +22,7 @@
   content: '';
   position: absolute; }
 
-.centered, .grid, #home_banner_2 .grid .grid__col--6 {
+.centered, .grid, .main_banner .grid .grid__col--6 {
   float: none;
   margin-left: auto;
   margin-right: auto; }
@@ -310,146 +310,146 @@ footer p {
 @media (min-width: 769px) {
   .grid__col--1 {
     width: 4.4943820225%; }
-    .grid__col--1.centered, .grid__col--1.grid, #home_banner_2 .grid .grid__col--1.grid__col--6 {
+    .grid__col--1.centered, .grid__col--1.grid, .main_banner .grid .grid__col--1.grid__col--6 {
       float: none;
       margin-left: auto;
       margin-right: auto; }
-      .grid__col--1.centered:last-of-type, .grid__col--1.grid:last-of-type, #home_banner_2 .grid .grid__col--1.grid__col--6:last-of-type {
+      .grid__col--1.centered:last-of-type, .grid__col--1.grid:last-of-type, .main_banner .grid .grid__col--1.grid__col--6:last-of-type {
         float: none; }
 
   .grid__col--2 {
     width: 10.861423221%; }
-    .grid__col--2.centered, .grid__col--2.grid, #home_banner_2 .grid .grid__col--2.grid__col--6 {
+    .grid__col--2.centered, .grid__col--2.grid, .main_banner .grid .grid__col--2.grid__col--6 {
       float: none;
       margin-left: auto;
       margin-right: auto; }
-      .grid__col--2.centered:last-of-type, .grid__col--2.grid:last-of-type, #home_banner_2 .grid .grid__col--2.grid__col--6:last-of-type {
+      .grid__col--2.centered:last-of-type, .grid__col--2.grid:last-of-type, .main_banner .grid .grid__col--2.grid__col--6:last-of-type {
         float: none; }
 
   .grid__col--3 {
     width: 17.2284644195%; }
-    .grid__col--3.centered, .grid__col--3.grid, #home_banner_2 .grid .grid__col--3.grid__col--6 {
+    .grid__col--3.centered, .grid__col--3.grid, .main_banner .grid .grid__col--3.grid__col--6 {
       float: none;
       margin-left: auto;
       margin-right: auto; }
-      .grid__col--3.centered:last-of-type, .grid__col--3.grid:last-of-type, #home_banner_2 .grid .grid__col--3.grid__col--6:last-of-type {
+      .grid__col--3.centered:last-of-type, .grid__col--3.grid:last-of-type, .main_banner .grid .grid__col--3.grid__col--6:last-of-type {
         float: none; }
 
   .grid__col--4 {
     width: 23.595505618%; }
-    .grid__col--4.centered, .grid__col--4.grid, #home_banner_2 .grid .grid__col--4.grid__col--6 {
+    .grid__col--4.centered, .grid__col--4.grid, .main_banner .grid .grid__col--4.grid__col--6 {
       float: none;
       margin-left: auto;
       margin-right: auto; }
-      .grid__col--4.centered:last-of-type, .grid__col--4.grid:last-of-type, #home_banner_2 .grid .grid__col--4.grid__col--6:last-of-type {
+      .grid__col--4.centered:last-of-type, .grid__col--4.grid:last-of-type, .main_banner .grid .grid__col--4.grid__col--6:last-of-type {
         float: none; }
 
   .grid__col--5 {
     width: 29.9625468165%; }
-    .grid__col--5.centered, .grid__col--5.grid, #home_banner_2 .grid .grid__col--5.grid__col--6 {
+    .grid__col--5.centered, .grid__col--5.grid, .main_banner .grid .grid__col--5.grid__col--6 {
       float: none;
       margin-left: auto;
       margin-right: auto; }
-      .grid__col--5.centered:last-of-type, .grid__col--5.grid:last-of-type, #home_banner_2 .grid .grid__col--5.grid__col--6:last-of-type {
+      .grid__col--5.centered:last-of-type, .grid__col--5.grid:last-of-type, .main_banner .grid .grid__col--5.grid__col--6:last-of-type {
         float: none; }
 
   .grid__col--6 {
     width: 36.329588015%; }
-    .grid__col--6.centered, .grid__col--6.grid, #home_banner_2 .grid .grid__col--6 {
+    .grid__col--6.centered, .grid__col--6.grid, .main_banner .grid .grid__col--6 {
       float: none;
       margin-left: auto;
       margin-right: auto; }
-      .grid__col--6.centered:last-of-type, .grid__col--6.grid:last-of-type, #home_banner_2 .grid .grid__col--6:last-of-type {
+      .grid__col--6.centered:last-of-type, .grid__col--6.grid:last-of-type, .main_banner .grid .grid__col--6:last-of-type {
         float: none; }
 
   .grid__col--7 {
     width: 42.6966292135%; }
-    .grid__col--7.centered, .grid__col--7.grid, #home_banner_2 .grid .grid__col--7.grid__col--6 {
+    .grid__col--7.centered, .grid__col--7.grid, .main_banner .grid .grid__col--7.grid__col--6 {
       float: none;
       margin-left: auto;
       margin-right: auto; }
-      .grid__col--7.centered:last-of-type, .grid__col--7.grid:last-of-type, #home_banner_2 .grid .grid__col--7.grid__col--6:last-of-type {
+      .grid__col--7.centered:last-of-type, .grid__col--7.grid:last-of-type, .main_banner .grid .grid__col--7.grid__col--6:last-of-type {
         float: none; }
 
   .grid__col--8 {
     width: 49.063670412%; }
-    .grid__col--8.centered, .grid__col--8.grid, #home_banner_2 .grid .grid__col--8.grid__col--6 {
+    .grid__col--8.centered, .grid__col--8.grid, .main_banner .grid .grid__col--8.grid__col--6 {
       float: none;
       margin-left: auto;
       margin-right: auto; }
-      .grid__col--8.centered:last-of-type, .grid__col--8.grid:last-of-type, #home_banner_2 .grid .grid__col--8.grid__col--6:last-of-type {
+      .grid__col--8.centered:last-of-type, .grid__col--8.grid:last-of-type, .main_banner .grid .grid__col--8.grid__col--6:last-of-type {
         float: none; }
 
   .grid__col--9 {
     width: 55.4307116105%; }
-    .grid__col--9.centered, .grid__col--9.grid, #home_banner_2 .grid .grid__col--9.grid__col--6 {
+    .grid__col--9.centered, .grid__col--9.grid, .main_banner .grid .grid__col--9.grid__col--6 {
       float: none;
       margin-left: auto;
       margin-right: auto; }
-      .grid__col--9.centered:last-of-type, .grid__col--9.grid:last-of-type, #home_banner_2 .grid .grid__col--9.grid__col--6:last-of-type {
+      .grid__col--9.centered:last-of-type, .grid__col--9.grid:last-of-type, .main_banner .grid .grid__col--9.grid__col--6:last-of-type {
         float: none; }
 
   .grid__col--10 {
     width: 61.797752809%; }
-    .grid__col--10.centered, .grid__col--10.grid, #home_banner_2 .grid .grid__col--10.grid__col--6 {
+    .grid__col--10.centered, .grid__col--10.grid, .main_banner .grid .grid__col--10.grid__col--6 {
       float: none;
       margin-left: auto;
       margin-right: auto; }
-      .grid__col--10.centered:last-of-type, .grid__col--10.grid:last-of-type, #home_banner_2 .grid .grid__col--10.grid__col--6:last-of-type {
+      .grid__col--10.centered:last-of-type, .grid__col--10.grid:last-of-type, .main_banner .grid .grid__col--10.grid__col--6:last-of-type {
         float: none; }
 
   .grid__col--11 {
     width: 68.1647940075%; }
-    .grid__col--11.centered, .grid__col--11.grid, #home_banner_2 .grid .grid__col--11.grid__col--6 {
+    .grid__col--11.centered, .grid__col--11.grid, .main_banner .grid .grid__col--11.grid__col--6 {
       float: none;
       margin-left: auto;
       margin-right: auto; }
-      .grid__col--11.centered:last-of-type, .grid__col--11.grid:last-of-type, #home_banner_2 .grid .grid__col--11.grid__col--6:last-of-type {
+      .grid__col--11.centered:last-of-type, .grid__col--11.grid:last-of-type, .main_banner .grid .grid__col--11.grid__col--6:last-of-type {
         float: none; }
 
   .grid__col--12 {
     width: 74.531835206%; }
-    .grid__col--12.centered, .grid__col--12.grid, #home_banner_2 .grid .grid__col--12.grid__col--6 {
+    .grid__col--12.centered, .grid__col--12.grid, .main_banner .grid .grid__col--12.grid__col--6 {
       float: none;
       margin-left: auto;
       margin-right: auto; }
-      .grid__col--12.centered:last-of-type, .grid__col--12.grid:last-of-type, #home_banner_2 .grid .grid__col--12.grid__col--6:last-of-type {
+      .grid__col--12.centered:last-of-type, .grid__col--12.grid:last-of-type, .main_banner .grid .grid__col--12.grid__col--6:last-of-type {
         float: none; }
 
   .grid__col--13 {
     width: 80.8988764045%; }
-    .grid__col--13.centered, .grid__col--13.grid, #home_banner_2 .grid .grid__col--13.grid__col--6 {
+    .grid__col--13.centered, .grid__col--13.grid, .main_banner .grid .grid__col--13.grid__col--6 {
       float: none;
       margin-left: auto;
       margin-right: auto; }
-      .grid__col--13.centered:last-of-type, .grid__col--13.grid:last-of-type, #home_banner_2 .grid .grid__col--13.grid__col--6:last-of-type {
+      .grid__col--13.centered:last-of-type, .grid__col--13.grid:last-of-type, .main_banner .grid .grid__col--13.grid__col--6:last-of-type {
         float: none; }
 
   .grid__col--14 {
     width: 87.265917603%; }
-    .grid__col--14.centered, .grid__col--14.grid, #home_banner_2 .grid .grid__col--14.grid__col--6 {
+    .grid__col--14.centered, .grid__col--14.grid, .main_banner .grid .grid__col--14.grid__col--6 {
       float: none;
       margin-left: auto;
       margin-right: auto; }
-      .grid__col--14.centered:last-of-type, .grid__col--14.grid:last-of-type, #home_banner_2 .grid .grid__col--14.grid__col--6:last-of-type {
+      .grid__col--14.centered:last-of-type, .grid__col--14.grid:last-of-type, .main_banner .grid .grid__col--14.grid__col--6:last-of-type {
         float: none; }
 
   .grid__col--15 {
     width: 93.6329588015%; }
-    .grid__col--15.centered, .grid__col--15.grid, #home_banner_2 .grid .grid__col--15.grid__col--6 {
+    .grid__col--15.centered, .grid__col--15.grid, .main_banner .grid .grid__col--15.grid__col--6 {
       float: none;
       margin-left: auto;
       margin-right: auto; }
-      .grid__col--15.centered:last-of-type, .grid__col--15.grid:last-of-type, #home_banner_2 .grid .grid__col--15.grid__col--6:last-of-type {
+      .grid__col--15.centered:last-of-type, .grid__col--15.grid:last-of-type, .main_banner .grid .grid__col--15.grid__col--6:last-of-type {
         float: none; }
 
   .grid__col--16 {
     width: 100%; }
-    .grid__col--16.centered, .grid__col--16.grid, #home_banner_2 .grid .grid__col--16.grid__col--6 {
+    .grid__col--16.centered, .grid__col--16.grid, .main_banner .grid .grid__col--16.grid__col--6 {
       float: none;
       margin-left: auto;
       margin-right: auto; }
-      .grid__col--16.centered:last-of-type, .grid__col--16.grid:last-of-type, #home_banner_2 .grid .grid__col--16.grid__col--6:last-of-type {
+      .grid__col--16.centered:last-of-type, .grid__col--16.grid:last-of-type, .main_banner .grid .grid__col--16.grid__col--6:last-of-type {
         float: none; } }
 @media (min-width: 1px) and (max-width: 768px) {
   [class^="grid__col--"] {
@@ -549,32 +549,6 @@ h2, .headline-secondary, .headline-secondary--grouped {
     border-color: #52bab3; }
 .form__btn {
   background: #52bab3; }
-
-.form_checkbox {
-  display: flex;
-  flex-wrap: wrap;
-  width: 90%;
-  margin: 0 auto; }
-  .form_checkbox li {
-    width: 33%;
-    margin: 12px 0;
-    display: flex; }
-    .form_checkbox li span {
-      width: 20px;
-      height: 20px;
-      border: solid 1px #fff;
-      display: inline-block;
-      margin-right: 10px; }
-
-textarea.lines {
-  background-color: transparent;
-  background-image: linear-gradient(#fff 0px, transparent 2px);
-  background-size: 100% 2em;
-  background-position: 0 -2px;
-  padding: 0;
-  height: 100px;
-  line-height: 2em;
-  margin-top: 20px; }
 
 .btn--default {
   background-color: #52bab3; }
@@ -676,6 +650,9 @@ nav.main-menu {
   .bg-dark h1, .bg-dark h2, .bg-dark h3, .bg-dark h4 {
     color: #fff; }
 
+.bg-blue {
+  background-color: #bde3f6; }
+
 .tabs-panel {
   border: solid 1px #fff;
   display: flex;
@@ -741,6 +718,14 @@ hgroup.main-logo {
   hgroup.main-logo h1 {
     visibility: hidden;
     margin: 0; }
+
+.columns-2 {
+  column-count: 2;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-gap: 30px;
+  -webkit-column-gap: 20px;
+  -moz-column-count: 20px; }
 
 .testimonials {
   border-top: solid 10px #9fcf67;
@@ -882,7 +867,8 @@ input, textarea {
       height: 20px;
       border: solid 1px #fff;
       display: inline-block;
-      margin-right: 10px; }
+      margin-right: 10px;
+      margin-top: 2px; }
     .form_checkbox li.checked span:before {
       content: '\f00c';
       font-family: 'FontAwesome';
@@ -892,6 +878,9 @@ input, textarea {
       color: #9fcf67;
       text-align: center;
       margin-top: -2px; }
+
+.home-form .slide {
+  padding: 0 20px; }
 
 textarea.lines {
   background-color: transparent;
@@ -921,20 +910,49 @@ textarea.lines {
   background-size: 100% auto;
   background-position: center; }
 
-#home_banner_2 {
+.main > .main_banner {
+  padding: 0; }
+
+.main_banner {
   padding: 0;
   background-size: 100% auto;
   background-position: center; }
-  #home_banner_2 .grid {
+  .main_banner .grid {
     background: rgba(0, 0, 0, 0.26);
     width: 100%;
     max-width: none;
     padding: 70px 0;
     color: #fff; }
-    #home_banner_2 .grid h2 {
+    .main_banner .grid h2 {
       text-align: center;
       color: #fff;
       font-size: 2.3em; }
-    #home_banner_2 .grid .grid__col--6 {
+    .main_banner .grid .grid__col--6 {
       width: 60%;
       text-align: center; }
+
+.why {
+  display: flex;
+  flex-wrap: wrap; }
+  .why li {
+    display: flex;
+    width: 49%;
+    align-items: center;
+    flex: 1 1 50%; }
+    .why li .icon {
+      width: 135px;
+      height: 135px;
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-size: contain; }
+    .why li .description {
+      flex: 1;
+      margin: 0 30px; }
+    .why li h2 {
+      color: #9fcf67;
+      font-weight: normal;
+      letter-spacing: 1px; }
+
+.about .main_banner {
+  height: 350px;
+  background-position: top; }

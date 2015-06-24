@@ -30,33 +30,3 @@
 		background: $color-primary;
 	}
 }
-
-.form_checkbox{
-	display: flex;
-	flex-wrap: wrap;
-	width: 90%;
-	margin: 0 auto;
-	li{
-		width: 33%;
-		margin: 12px 0;
-		display: flex;
-		span{
-			width: 20px;
-			height: 20px;
-			border: solid 1px $white;
-			display: inline-block;
-			margin-right: 10px;
-		}
-	}
-}
-
-textarea.lines{
-  background-color: transparent;
-  background-image: linear-gradient( $white 0px, transparent 2px);
-  background-size: 100% 2em;
-  background-position: 0 -2px;
-  padding: 0;
-  height: 100px;
-  line-height: 2em;
-  margin-top: 20px;
-}

@@ -14,7 +14,7 @@
 			<div class="grid">
 				<div class="grid__col--4">
 					<hgroup class="main-logo">
-						<a href="#">
+						<a href="index.php">
 							 <h1>Zitrone Natural</h1>
 						</a>
 					</hgroup>
@@ -23,7 +23,7 @@
 					<nav class="main-menu">
 						<ul>
 							<li class="active"><a href="#">Services</a></li>
-							<li><a href="#">About us</a></li>
+							<li><a href="about.php">About us</a></li>
 							<li><a href="#">Clients</a></li>
 							<li><a href="#">Contact Us</a></li>
 						</ul>

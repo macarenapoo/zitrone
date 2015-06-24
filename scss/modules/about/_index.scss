@@ -1,0 +1,33 @@
+.why{
+	display: flex;
+	flex-wrap: wrap;
+	li{
+		display: flex;
+		width: 49%;
+		align-items: center;
+		flex: 1 1 50%;
+		.icon{
+			width: 135px;
+			height: 135px;
+			display: inline-block;
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+		.description{
+			flex: 1;
+			margin: 0 30px;
+		}
+		h2{
+			color: $green;
+			font-weight: normal;
+			letter-spacing: 1px;
+		}
+	}
+}
+
+.about{
+	.main_banner{
+		height: 350px;
+		background-position: top;
+	}
+}

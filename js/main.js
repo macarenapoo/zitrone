@@ -15,7 +15,6 @@ function init_slick(){
 	});
 
 	$("#testimonials-slider-js").slick({
-		adaptiveHeight: true,
 		infinite: true,
 		speed: 1000,
 		autoplay: true,
