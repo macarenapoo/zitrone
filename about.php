@@ -73,43 +73,43 @@
 				<h1>News and Media</h1>
 				<ul class="news">
 					<li>
+						<span class="icon_news file"></span>
 						<a href="#">
-							<div class="thumbnail"></div>
 							<div class="title">Emprendedores se preocupan por la salud de México.</div>
 							<div class="source">Periódico Reforma</div>
 						</a>
 					</li>
 					<li>
+						<span class="icon_news file"></span>
 						<a href="#">
-							<div class="thumbnail"></div>
 							<div class="title">Emprendedores se preocupan por la salud de México.</div>
 							<div class="source">Periódico Reforma</div>
 						</a>
 					</li>
 					<li>
+						<span class="icon_news file"></span>
 						<a href="#">
-							<div class="thumbnail"></div>
 							<div class="title">Emprendedores se preocupan por la salud de México.</div>
 							<div class="source">Periódico Reforma</div>
 						</a>
 					</li>
 					<li>
+						<span class="icon_news file"></span>
 						<a href="#">
-							<div class="thumbnail"></div>
 							<div class="title">Emprendedores se preocupan por la salud de México.</div>
 							<div class="source">Periódico Reforma</div>
 						</a>
 					</li>
 					<li>
+						<span class="icon_news file"></span>
 						<a href="#">
-							<div class="thumbnail"></div>
 							<div class="title">Emprendedores se preocupan por la salud de México.</div>
 							<div class="source">Periódico Reforma</div>
 						</a>
 					</li>
 					<li>
+						<span class="icon_news file"></span>
 						<a href="#">
-							<div class="thumbnail"></div>
 							<div class="title">Emprendedores se preocupan por la salud de México.</div>
 							<div class="source">Periódico Reforma</div>
 						</a>

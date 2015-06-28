@@ -35,6 +35,15 @@
 			@extend .centered;
 			width: 60%;
 			text-align: center;
+			@include mq(small){
+				width: 85%;
+			}
+		}
+	}
+	@include mq(small){
+		background-size: cover;
+		.grid{
+			padding: 25px 0;
 		}
 	}
 }

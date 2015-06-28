@@ -35,9 +35,15 @@
 	.slick-prev{
 		background-image: url('images/slider-clients-back-arrow.png');
 		left: -50px;
+		@include mq(small){
+			left: -30px;
+		}
 	}
 	.slick-next{
 		background-image: url('images/slider-clients-next-arrow.png');
 		right: -50px;
+		@include mq(small){
+			right: -30px;
+		}
 	}
 }

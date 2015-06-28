@@ -1,11 +1,10 @@
 .why{
-	display: flex;
-	flex-wrap: wrap;
+	@include flex-display();
+	@include flex-wrap(wrap);
 	li{
-		display: flex;
+		@include flex-display();
 		width: 49%;
-		align-items: center;
-		flex: 1 1 50%;
+		@include align-items(center);
 		.icon{
 			width: 135px;
 			height: 135px;
@@ -14,7 +13,7 @@
 			background-size: contain;
 		}
 		.description{
-			flex: 1;
+			@include flex(1);
 			margin: 0 30px;
 		}
 		h2{
@@ -23,11 +22,49 @@
 			letter-spacing: 1px;
 		}
 	}
+	@include mq(small){
+		li{
+			width: 100%;
+			@include flex-direction( column );
+			.icon{
+				width: 100px;
+				height: 100px;
+			}
+			.description{
+				margin: 0 10px;
+				text-align: center;
+			}
+		}
+	}
 }
 
 .about{
 	.main_banner{
 		height: 350px;
 		background-position: top;
+		@include mq(small){
+			height: 200px;
+		}
+	}
+}
+
+.news{
+	@include flex-display();
+	@include flex-wrap( wrap );
+	li{
+		width: 50%;
+		padding: 10px;
+		margin-bottom: 20px;
+		@include flex-display();
+		@include align-items(center);
+		@include mq(small){
+			width: 100%;
+		}
+	}
+	a{
+		color: $white;
+		.source{
+			color: $blue;
+		}
 	}
 }

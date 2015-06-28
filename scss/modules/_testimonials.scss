@@ -1,6 +1,10 @@
 .testimonials{
 	border-top: solid 10px $green;
 	padding: 75px;
+	@include mq(small){
+		padding: 50px 0;
+		margin-top: -0.75em;
+	}
 }
 
 blockquote{
@@ -20,6 +24,9 @@ blockquote{
 			background-size: contain;
 			background-repeat: no-repeat;
 			background-position: center;
+			@include mq(small){
+				width: 60px;
+			}
 		}
 		.cite{
 			display: table-cell;
@@ -30,6 +37,9 @@ blockquote{
 		p{
 			margin: 0;
 			color: palette(gray, light);
+			@include mq(small){
+				text-align: left;
+			}
 		}
 	}
 }
