@@ -50,3 +50,9 @@
 		}
 	}
 }
+
+#home_clients{
+	@include mq(small){
+		padding: 0;
+	}
+}

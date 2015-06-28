@@ -1023,6 +1023,10 @@ cite {
       .clients-slider .slick-next {
         right: -30px; } }
 
+@media (min-width: 0px) and (max-width: 800px) {
+  #home_clients {
+    padding: 0; } }
+
 input, textarea {
   background-color: transparent; }
 
