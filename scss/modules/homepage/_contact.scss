@@ -21,14 +21,14 @@ input, textarea{
 }
 
 .form_checkbox{
-	display: flex;
-	flex-wrap: wrap;
+	@include flex-display();
+	@include flex-wrap(wrap);
 	width: 90%;
 	margin: 0 auto;
 	li{
 		width: 33%;
 		margin: 12px 0;
-		display: flex;
+		@include flex-display();
 		cursor: pointer;
 		span{
 			width: 20px;

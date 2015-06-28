@@ -1033,13 +1033,24 @@ input, textarea {
   margin-bottom: 50px; }
 
 .form_checkbox {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -ms-flex;
   display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   width: 90%;
   margin: 0 auto; }
   .form_checkbox li {
     width: 33%;
     margin: 12px 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -ms-flex;
     display: flex;
     cursor: pointer; }
     .form_checkbox li span {
