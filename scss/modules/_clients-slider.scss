@@ -7,6 +7,9 @@
 		.slick-slide{
 			height: inherit;
 			padding: 10px 20px;
+			@include mq(small){
+				padding: 10px 40px;
+			}
 			a{
 				display: table-cell;
 				height: inherit;

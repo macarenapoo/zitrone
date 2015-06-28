@@ -991,6 +991,9 @@ cite {
     .clients-slider .slick-track .slick-slide {
       height: inherit;
       padding: 10px 20px; }
+      @media (min-width: 0px) and (max-width: 800px) {
+        .clients-slider .slick-track .slick-slide {
+          padding: 10px 40px; } }
       .clients-slider .slick-track .slick-slide a {
         display: table-cell;
         height: inherit;
