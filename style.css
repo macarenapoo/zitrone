@@ -1075,6 +1075,9 @@ input, textarea {
 
 .home-form .slide {
   padding: 0 20px; }
+  @media (min-width: 0px) and (max-width: 800px) {
+    .home-form .slide {
+      padding: 0; } }
 
 textarea.lines {
   background-color: transparent;

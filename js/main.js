@@ -51,6 +51,7 @@ function init_slick(){
 		nextArrow: '#home_form_next_btn',
 		prevArrow: '#home_form_prev_btn',
 		draggable: false,
+		swipe: false,
 		adaptiveHeight: true
 	});
 }
