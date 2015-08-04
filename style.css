@@ -14,7 +14,7 @@
   position: absolute;
   width: 1px; }
 
-.panel--centered, .panel--padded--centered, [class^="btn--"] {
+.text-center, .panel--centered, .panel--padded--centered, [class^="btn--"] {
   text-align: center; }
 
 .icn--nav-toggle:before {
@@ -814,18 +814,17 @@ h2, .headline-secondary, .headline-secondary--grouped {
     text-align: center;
     margin: 0px 0px 30px; }
 
-hgroup.main-logo {
+hgroup h1.main-logo {
+  text-indent: -9999px;
+  margin: 0;
   background-image: url("images/main_logo.png");
   background-repeat: no-repeat;
   background-position: left center;
   background-size: auto 70%;
   height: 95px; }
-  hgroup.main-logo h1 {
-    visibility: hidden;
-    margin: 0; }
-  @media (min-width: 0px) and (max-width: 800px) {
-    hgroup.main-logo {
-      height: 80px; } }
+@media (min-width: 0px) and (max-width: 800px) {
+  hgroup {
+    height: 80px; } }
 
 @media (min-width: 0px) and (max-width: 800px) {
   p {
@@ -1231,3 +1230,73 @@ textarea.lines {
     color: #fff; }
     .news a .source {
       color: #bde3f6; }
+
+.services .grid {
+  background-size: contain; }
+.services section {
+  border-bottom: solid 1px #e9ebec; }
+  .services section:last-of-type {
+    border-bottom: none; }
+  .services section.bg-dark, .services section.bg-blue {
+    border-bottom: none; }
+.services.main > section.banner {
+  padding-top: 0px; }
+
+.food-court-brands {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.food-court-brand {
+  -webkit-flex: initial;
+  -moz-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  width: 23%;
+  margin: 2% 1%;
+  padding: 25px;
+  border: solid 1px #9fcf67;
+  text-align: center; }
+  @media (min-width: 801px) and (max-width: 1119px) {
+    .food-court-brand {
+      width: 48%; } }
+  @media (min-width: 0px) and (max-width: 800px) {
+    .food-court-brand {
+      width: 98%; } }
+  .food-court-brand h3 {
+    color: #9fcf67;
+    font-size: 1.4em; }
+  .food-court-brand .logo {
+    height: 160px;
+    border-bottom: solid 5px #9fcf67;
+    position: relative; }
+    .food-court-brand .logo img {
+      margin: 0;
+      height: 100%; }
+    .food-court-brand .logo:after {
+      display: block;
+      content: ' ';
+      width: 0;
+      height: 0;
+      background: transparent;
+      left: 50%;
+      position: absolute;
+      margin-left: -10px;
+      border: solid transparent;
+      border-top-color: #9fcf67;
+      border-width: 10px;
+      bottom: -25px; }
+  .food-court-brand p {
+    font-size: 1em; }
+
+.services_banner {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px; }

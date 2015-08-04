@@ -9,15 +9,16 @@
 	}
 }
 
-hgroup.main-logo{
-	background-image: url($path--rel+"/main_logo.png");
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: auto 70%;
-	height: 95px;
-	h1{
-		visibility: hidden;
+hgroup{
+
+	h1.main-logo{
+		text-indent: -9999px;
 		margin: 0;
+		background-image: url($path--rel+"/main_logo.png");
+		background-repeat: no-repeat;
+		background-position: left center;
+		background-size: auto 70%;
+		height: 95px;
 	}
 	@include mq(small){
 		height: 80px;

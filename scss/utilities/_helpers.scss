@@ -97,3 +97,7 @@
 		-moz-column-count: 1;
 	}
 }
+
+.text-center{
+	@extend %center-align;
+}

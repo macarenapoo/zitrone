@@ -1,0 +1,78 @@
+.services{
+	.grid{
+		background-size: contain;
+	}
+	section{
+		border-bottom: solid 1px palette(gray, x-light);
+		&:last-of-type{
+			border-bottom: none;
+		}
+		&.bg-dark, &.bg-blue{
+			border-bottom: none;
+		}
+	}
+	&.main{
+		& > section{
+			&.banner{
+				padding-top: 0px;
+			}
+		}
+	}
+}
+
+.food-court-brands{
+	@include flex-display();
+	@include flex-wrap( wrap );
+}
+
+.food-court-brand{
+	@include flex();
+	width: 23%;
+	margin: 2% 1%;
+	padding: 25px;
+	border: solid 1px $green;
+	text-align: center;
+	@include mq(medium){
+		width: 48%;
+	}
+	@include mq(small){
+		width: 98%;
+	}
+	h3{
+		color: $green;
+		font-size: 1.4em;
+	}
+	.logo{
+		height: 160px;
+		border-bottom: solid 5px $green;
+		position: relative;
+		img{
+			margin: 0;
+			height: 100%;
+		}
+		&:after{
+			display: block;
+		  content: ' ';
+		  width: 0;
+		  height: 0;
+		  background: transparent;
+		  left: 50%;
+		  position: absolute;
+		  margin-left: -10px;
+		  border: solid transparent;
+		  border-top-color: $green;
+		  border-width: 10px;
+		  bottom: -25px;
+		}
+	}
+	p{
+		font-size: 1em;
+	}
+}
+
+.services_banner{
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 50px;
+}
