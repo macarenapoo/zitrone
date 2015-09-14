@@ -74,7 +74,7 @@
 					</div>
 				</div>
 			</section> 
-			<section id="home_testimonials">
+			<section id="home_testimonials" class="testimonials-container">
 				<div class="grid">
 					<div class="grid__col--14 centered">
 						<ul id="testimonials-slider-js" class="testimonials">
@@ -131,15 +131,15 @@
 										<input type="text" placeholder="Company" class="company">
 									</div>
 									<div class="field">
-										<label class="icon_form contact">Company</label>
+										<label class="icon_form contact">Contact</label>
 										<input type="text" placeholder="Contact Name">
 									</div>
 									<div class="field">
-										<label class="icon_form phone">Company</label>
+										<label class="icon_form phone">Phone</label>
 										<input type="text" placeholder="Contact Phone Number">
 									</div>
 									<div class="field">
-										<label class="icon_form email">Company</label>
+										<label class="icon_form email">Email</label>
 										<input type="text" placeholder="Contact Email">
 									</div>
 									<a href="#" class="btn fr" id="home_form_next_btn">Next</a>

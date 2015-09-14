@@ -10,6 +10,37 @@ $(document).ready( function(){
 
 });
 
+// Fixed Submenu
+
+$(document).on('scroll', function fixedMenu(){
+
+	var header_height = parseInt($('.js-header').css('height'));
+	var scroll = $('body').scrollTop();
+
+	console.log(header_height, scroll);
+
+	if(scroll > header_height){
+		$('body').addClass('fixed-submenu');
+	}else{
+		$('body').removeClass('fixed-submenu');
+	}
+});
+
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top - 64
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
 function init_slick(){
 	$("#clients-slider-js").slick({
 		infinite: true,
@@ -68,3 +99,4 @@ function mobile_menu(){
 		$('#mobile-menu-js').slideToggle();
 	});
 }
+

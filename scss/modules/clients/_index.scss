@@ -1,3 +1,17 @@
 .clients{
 	
 }
+
+.clients_logos{
+	@include flex-display();
+	@include flex-wrap(wrap);
+	@include align-items(center);
+	li{
+		@include flex(1 1 auto);
+		max-width: 16.6666%;
+		padding: 20px;
+		@include mq(small){
+			max-width: 33%;
+		}
+	}
+}

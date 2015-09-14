@@ -1,9 +1,15 @@
 <?php include('header.php'); ?>
-
+<nav class="submenu" >
+	<ul>
+		<li><a href="#about_sub">About us</a></li>
+		<li><a href="#why_sub">Why Zitrone?</a></li>
+		<li><a href="#news_sub">News and Media</a></li>
+	</ul>
+</nav>
 <div class="main about">
 	<section class="main_banner" style="background-image: url('images/uploads/banner_about_bg-image.jpg')">
 	</section>
-	<section class="bg-blue">
+	<section class="bg-blue" id="about_sub">
 		<div class="grid">
 			<div class="grid__col--14 centered">
 				<h1>About us</h1>
@@ -16,7 +22,7 @@
 			</div>
 		</div>
 	</section>
-	<section>
+	<section id="why_sub">
 		<div class="grid">
 			<div class="grid__col--16">
 				<h1>Why Zitrone?</h1>
@@ -67,7 +73,7 @@
 			</div>
 		</div>
 	</section>
-	<section  class="bg-dark">
+	<section  class="bg-dark" id="news_sub">
 		<div class="grid">
 			<div class="grid__col--16">
 				<h1>News and Media</h1>
@@ -80,7 +86,21 @@
 						</a>
 					</li>
 					<li>
-						<span class="icon_news file"></span>
+						<span class="icon_news news"></span>
+						<a href="#">
+							<div class="title">Emprendedores se preocupan por la salud de México.</div>
+							<div class="source">Periódico Reforma</div>
+						</a>
+					</li>
+					<li>
+						<span class="icon_news video"></span>
+						<a href="#">
+							<div class="title">Emprendedores se preocupan por la salud de México.</div>
+							<div class="source">Periódico Reforma</div>
+						</a>
+					</li>
+					<li>
+						<span class="icon_news link"></span>
 						<a href="#">
 							<div class="title">Emprendedores se preocupan por la salud de México.</div>
 							<div class="source">Periódico Reforma</div>
@@ -94,21 +114,7 @@
 						</a>
 					</li>
 					<li>
-						<span class="icon_news file"></span>
-						<a href="#">
-							<div class="title">Emprendedores se preocupan por la salud de México.</div>
-							<div class="source">Periódico Reforma</div>
-						</a>
-					</li>
-					<li>
-						<span class="icon_news file"></span>
-						<a href="#">
-							<div class="title">Emprendedores se preocupan por la salud de México.</div>
-							<div class="source">Periódico Reforma</div>
-						</a>
-					</li>
-					<li>
-						<span class="icon_news file"></span>
+						<span class="icon_news news"></span>
 						<a href="#">
 							<div class="title">Emprendedores se preocupan por la salud de México.</div>
 							<div class="source">Periódico Reforma</div>

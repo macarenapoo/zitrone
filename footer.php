@@ -1,7 +1,9 @@
 		<footer class="main-footer">
 			<div class="grid">
 				<div class="grid__col--10">
-					® 2015. Zitrone Natural. Call us at <a href="tel:52110152">5211.0152</a> or email us at <a href="mailto:opina@zitrone.com.mx">opina@zitrone.com.mx</a>
+					<div class="footer-info">
+						® 2015. Zitrone Natural. Call us at <a href="tel:52110152">5211.0152</a> or email us at <a href="mailto:opina@zitrone.com.mx">opina@zitrone.com.mx</a>
+					</div>
 				</diV>
 				<div class="grid__col--6">
 					<div class="social-media">

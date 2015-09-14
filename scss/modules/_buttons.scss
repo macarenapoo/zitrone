@@ -31,5 +31,13 @@
   &.submit{
     border-color: $green;
     color: $green;
+    &.white{
+      border-color: $white;
+      color: $white;
+    }
+    .bg-blue &{
+      border-color: $grey;
+      color: $grey;
+    }
   }
 }

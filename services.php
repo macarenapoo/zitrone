@@ -1,7 +1,15 @@
 <?php include('header.php'); ?>
-
+<nav class="submenu" >
+	<ul>
+		<li><a href="#dining_hall_sub">Dining Hall</a></li>
+		<li><a href="#food_carts_sub">Food Carts</a></li>
+		<li><a href="#food_courts_sub">Food Courts</a></li>
+		<li><a href="#zitrone_cafe_sub">Zitrone Café</a></li>
+		<li><a href="#catering_sub">Catering</a></li>
+	</ul>
+</nav>
 <div class="main services">
-	<section class="bg-blue banner">
+	<section class="bg-blue banner" id="dining_hall_sub">
 		<div class="services_banner" style="background-image: url('images/uploads/banner_dining-hall.jpg')">
 		</div>
 		<div class="grid">
@@ -11,7 +19,7 @@
 				<p>Many companies do not have the space nor the budget to instll a kitchen in their work place. Therefore, Zitrone Natural offers a service where all food is prepared off site in Zitrone’s kitchen and then brought to a small dining hall in the client’s office.</p> 
 			</div>
 			<div class="grid__col--8">
-				<ul>
+				<ul class="bullets">
 					<li>All of our menus are created by experts and offer a wide variety of options.</li>
 					<li>We offer wellness menus which offer low fat and low colesterol options.</li>
 					<li>We cook everything in Zitrone's kitchen and deliver it to your business ready to serve.</li>
@@ -21,7 +29,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="bg-dark">
+	<section class="bg-dark" id="food_carts_sub">
 		<div class="grid">
 			<div class="grid__col--7">
 				<h1>Food Carts</h1>
@@ -32,7 +40,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="banner">
+	<section class="banner" id="food_courts_sub">
 		<div class="services_banner" style="background-image: url('images/uploads/banner_food-courts.jpg')">
 		</div>
 		<div class="grid">
@@ -67,7 +75,7 @@
 			</ul>
 		</div>
 	</section>
-	<section>
+	<section id="zitrone_cafe_sub">
 		<div class="grid">
 			<div class="grid__col--7">
 				<h1>Zitrone Cafe</h1>
@@ -80,7 +88,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="bg-dark centered">
+	<section class="bg-dark centered" id="catering_sub">
 		<div class="grid" style="background-image: url('images/uploads/catering_bg.png')">
 			<div class="grid__col--8 centered text-center">
 				<h1>Catering Services</h1>

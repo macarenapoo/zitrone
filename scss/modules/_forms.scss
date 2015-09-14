@@ -3,6 +3,7 @@
 // ==========================================================================
 
 .form {
+	overflow: auto;
 	@include e(label) {
 		@include m(hidden) {
 			@extend .srt;
@@ -19,7 +20,6 @@
 		background: palette(grey, xx-light);
 		color: palette(black, dark);
 		font-weight: $font-weight--light;
-
 		&:focus {	
 			border-color: $color-primary;
 		}
@@ -28,5 +28,64 @@
 	@include e(btn) {
 		@extend %btn;
 		background: $color-primary;
+	}
+}
+
+form{
+	.field{
+		border-bottom: solid 1px $white;
+		position: relative;
+		padding-left: 40px;
+		.bg-blue &{
+			border-bottom: solid 1px $grey;
+		}
+	}
+}
+
+textarea.lines{
+  background-color: transparent;
+  background-image: linear-gradient( $white 0px, transparent 2px);
+  background-size: 100% 2em;
+  background-position: 0 -2px;
+  padding: 0;
+  height: 100px;
+  line-height: 2em;
+  margin-top: 20px;
+  .bg-blue &{
+  	background-image: linear-gradient( $grey 0px, transparent 2px);
+  }
+}
+
+::-webkit-input-placeholder {
+   color: palette(gray, light);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: palette(gray, light);  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: palette(gray, light);  
+}
+
+:-ms-input-placeholder {  
+   color: palette(gray, light);  
+}
+
+.bg-blue{
+	::-webkit-input-placeholder {
+	   color: lighten(palette(gray, light), 10%);
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	   color: lighten(palette(gray, light), 10%); 
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: lighten(palette(gray, light), 10%); 
+	}
+
+	:-ms-input-placeholder {  
+	   color: lighten(palette(gray, light), 10%);  
 	}
 }

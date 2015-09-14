@@ -76,3 +76,20 @@
 	background-position: center;
 	margin-bottom: 50px;
 }
+
+#dining_hall_sub{
+	.bullets{
+		margin-top: 65px;
+	}
+}
+
+.bullets{
+	li{
+		background-image: url($path--rel+"/bullet.png");
+		background-size: 25px;
+		background-repeat: no-repeat;
+		background-position: 5px top;
+		padding-left: 40px;
+		margin-bottom: 25px;
+	}	
+}

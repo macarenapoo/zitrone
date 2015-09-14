@@ -6,13 +6,6 @@ input, textarea{
 	input, textarea{
 
 	}
-	form{
-		.field{
-			border-bottom: solid 1px $white;
-			position: relative;
-			padding-left: 40px;
-		}
-	}
 }
 
 #home_contact .info{
@@ -69,29 +62,25 @@ input, textarea{
 	}
 }
 
-textarea.lines{
-  background-color: transparent;
-  background-image: linear-gradient( $white 0px, transparent 2px);
-  background-size: 100% 2em;
-  background-position: 0 -2px;
-  padding: 0;
-  height: 100px;
-  line-height: 2em;
-  margin-top: 20px;
+.contact-us{
+	@include flex-display();
+	@include flex-wrap(wrap);
+	margin-bottom: 50px;
+	.icon_form{
+		left: 0;
+	}
+	.contact-us-info{
+		@include flex( 1 0 60%);
+	}
+	.contact-us-social{
+		@include flex( 0 1 40%);
+		@include mq(small){
+			@include flex( 0 1 50%);
+		}
+	}
+	.col > div{
+		position: relative;
+    padding: 14px 0 15px 40px;
+	}
 }
 
-::-webkit-input-placeholder {
-   color: palette(gray, light);
-}
-
-:-moz-placeholder { /* Firefox 18- */
-   color: palette(gray, light);  
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   color: palette(gray, light);  
-}
-
-:-ms-input-placeholder {  
-   color: palette(gray, light);  
-}

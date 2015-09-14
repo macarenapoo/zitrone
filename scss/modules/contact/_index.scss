@@ -1,3 +1,25 @@
 .contact{
 	
 }
+
+#contact_forms{
+	 background: linear-gradient(90deg, $blue 50%, $grey 50%);
+	 @include mq(small){
+	 	background: $blue;
+	 	padding-bottom: 0px;
+	 	p{
+	 		text-align: left;
+	 	}
+	 	.grid{
+		 	width: 100%;
+		 	.grid__col--7{
+		 		padding: 0 5%;
+		 		&:last-of-type{
+		 			padding-top: 30px;
+		 			margin-bottom: 0px;
+		 		}
+		 	}
+		 }
+	 }
+
+}

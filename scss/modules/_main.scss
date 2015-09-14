@@ -7,6 +7,9 @@
 			margin: 0px 0px 30px;
 		}
 	}
+	.fixed-submenu &{
+		padding-top: 64px;
+	}
 }
 
 hgroup{
@@ -28,5 +31,75 @@ hgroup{
 p{
 	@include mq(small){
 		text-align: center;
+	}
+}
+
+.main_banner{
+	padding: 0;
+	min-height: 350px;
+	background-size: cover;
+	background-position: center;
+	.grid{
+		background: rgba(0,0,0,0.26);
+		width: 100%;
+		max-width: none;
+		padding: 70px 0;
+		color: $white;
+		h2{
+			text-align: center;
+			color: $white;
+			font-size: 2.3em;
+		}
+		.grid__col--6{
+			@extend .centered;
+			width: 60%;
+			text-align: center;
+			@include mq(small){
+				width: 85%;
+			}
+		}
+	}
+	@include mq(small){
+		min-height: 200px;
+		.grid{
+			padding: 25px 0;
+		}
+	}
+}
+
+.footer-info{
+	padding: 7px 0;
+}
+
+.submenu{
+	position: static;
+	background-color: palette( gray, xx-light);
+	border-top: solid 1px palette(grey, light);
+	font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+  font-size: 1em;
+	letter-spacing: 1px;
+	z-index: 2;
+	ul{
+		text-align: center;
+		li{
+			display: inline-block;
+			padding: 20px 40px;
+			@include mq(small){
+				padding: 20px;
+			}
+			a{
+				color: palette( grey, light);
+				&:hover, &:active{
+					color: $green;
+				}
+			}
+		}
+	}
+	.fixed-submenu &{
+		position: fixed;
+		width: 100%;
+		top: 0px;
+		border-top: none;
 	}
 }
