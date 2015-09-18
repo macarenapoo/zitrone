@@ -60,7 +60,7 @@
 			<section id="home_clients">
 				<div class="grid">
 					<div class="grid__col--16">
-						<div class="clients-slider" id="clients-slider-js">
+						<div class="clients-slider" id="homepage-clients-slider-js">
 							<div><a href="#"><img src="images/uploads/clients_american-express.png"/></a></div>
 							<div><a href="#"><img src="images/uploads/clients_dhl.jpg"/></a></div>
 							<div><a href="#"><img src="images/uploads/clients_estee-lauder.jpg"/></a></div>

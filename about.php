@@ -22,6 +22,22 @@
 			</div>
 		</div>
 	</section>
+	<section class="bg-dark-blue">
+		<div class="grid">
+			<div class="grid__col--8 centered">
+				<div id="gender-stats">
+					<div class="stat female"><span class="odometer" data-value="48">0</span>%</div>
+					<div class="stat male"><span class="odometer" data-value="52">0</span>%</div>
+				</div>
+			</div>
+			<div class="grid">
+				<div class="grid__col--10 centered">
+					<hr class="small"/>
+					<div class="legend">In this company we do not discriminate regardless of sex, age, sexual orientation, disability, physical appeareance, race, ethnicity, or religion.</i>
+				</div>
+			</div>
+		</div>
+	</section>
 	<section id="why_sub">
 		<div class="grid">
 			<div class="grid__col--16">

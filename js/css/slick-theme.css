@@ -117,10 +117,10 @@
         font-size: 6px;
         line-height: 20px;
         text-align: center;
-        color: #293841;
+        color: #9fcf67;
         opacity: 0.25;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale; }
     .slick-dots li.slick-active button:before {
-      color: #293841;
+      color: #9fcf67;
       opacity: 0.75; }

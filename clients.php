@@ -1,9 +1,33 @@
 <?php include('header.php'); ?>
 
 <div class="main clients">
-	<section class="main_banner" style="background-image: url('images/uploads/banner_about_bg-image.jpg')">
+	<section class="main_banner clients_slider" id="clients-slider-js">
+		<div class="slide">
+			<div class="main_banner" style="background-image: url('images/uploads/banner_about_bg-image.jpg')">
+				<div class="caption">
+					<div class="logo" style="background-image:url(images/uploads/clients_american-express.png)"></div>
+					<div class="description">Dining Hall American Express</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide">
+			<div class="main_banner" style="background-image: url('images/uploads/banner_contact_us.jpg')">
+				<div class="caption">
+					<div class="logo" style="background-image:url(images/uploads/clients_dhl.jpg)"></div>
+					<div class="description">Dining Hall DHL</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide">
+			<div class="main_banner" style="background-image: url('images/uploads/banner_food-courts.jpg')">
+				<div class="caption">
+					<div class="logo" style="background-image:url(images/uploads/clients_gbm.jpg)"></div>
+					<div class="description">Catering GBM</div>
+				</div>
+			</div>
+		</div>
 	</section>
-	<section>
+	<section class="clients_logos_section">
 		<div class="grid">
 			<div class="grid__col--16">
 				<ul class="clients_logos">

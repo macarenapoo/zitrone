@@ -7,11 +7,51 @@
 	@include flex-wrap(wrap);
 	@include align-items(center);
 	li{
-		@include flex(1 1 auto);
+		@include flex(1 1 16.666%);
 		max-width: 16.6666%;
 		padding: 20px;
 		@include mq(small){
 			max-width: 33%;
+			@include flex(1 1 33%);
+		}
+	}
+}
+
+.main .clients_logos_section{
+	padding-top: 10px;
+}
+
+.clients_slider{
+	.slide{
+		position: relative;
+		.caption{
+			position: absolute;
+			margin: 20px;
+			bottom: 0px;
+			padding: 10px 20px;
+			background-color: rgba(0,0,0, .5);
+			color: $white;
+			border-radius: 5px;
+			@include flex-display();
+			@include align-items( center );
+			@include mq(small){
+				width: 100%;
+				box-sizing: border-box;
+				margin: 0;
+				border-radius: 0;
+			}
+		}
+		.logo{
+			height: 30px;
+			display: inline-block;
+			width: 40px;
+			background-size: contain;
+			background-position: center;
+			background-repeat: no-repeat;
+			margin-right: 20px;
+		}
+		.description{
+			display: inline-block;
 		}
 	}
 }

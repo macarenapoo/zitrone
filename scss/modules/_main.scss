@@ -34,6 +34,16 @@ p{
 	}
 }
 
+hr{
+	border: solid 1px $white;
+}
+
+hr.small{
+	border: solid 2px $white;
+	width: 100px;
+	margin: 35px auto;
+}
+
 .main_banner{
 	padding: 0;
 	min-height: 350px;
@@ -101,5 +111,7 @@ p{
 		width: 100%;
 		top: 0px;
 		border-top: none;
+		-webkit-box-shadow: 0 0 2px 1px rgba(0,0,0,.1);
+		box-shadow: 0 0 2px 1px rgba(0,0,0,.1);
 	}
 }

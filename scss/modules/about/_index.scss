@@ -60,12 +60,39 @@
 	}
 }
 
-.bullets{
-	li{
-		background-image: url($path--rel+"/bullets.png");
-		background-size: 25px;
-		background-repeat: no-repeat;
-		background-position: 5px center;
-		padding-left: 35px;
-	}	
+#gender-stats{
+	font-family: $font-family--secondary;
+	text-align: center;
+	@include flex-display();
+	.stat{
+		font-size: 65px;
+		@include flex(0 0 50%);
+    background-repeat: no-repeat;
+    border-right: solid 3px $blue;
+    &:last-of-type{
+    	border-right: none;
+    }
+	}
+	.male{
+		background-image: url($path--rel+"/male-icon.png");
+    background-position: 20%;
+    padding-left: 70px;
+	}
+	.female{
+		background-image: url($path--rel+"/female-icon.png");
+		background-position: 80%;
+    padding-right: 70px;
+	}
+	.odometer.odometer-auto-theme, .odometer.odometer-theme-default {
+	  font-family: $font-family--secondary;
+	  line-height: 1.1em;
+	}
 }
+
+.legend{
+	font-style: italic;
+	text-align: center;
+}
+
+
+

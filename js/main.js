@@ -7,7 +7,6 @@ $(document).ready( function(){
 	mobile_menu();
 	homepage_form();
 	init_slick();
-
 });
 
 // Fixed Submenu
@@ -16,8 +15,6 @@ $(document).on('scroll', function fixedMenu(){
 
 	var header_height = parseInt($('.js-header').css('height'));
 	var scroll = $('body').scrollTop();
-
-	console.log(header_height, scroll);
 
 	if(scroll > header_height){
 		$('body').addClass('fixed-submenu');
@@ -42,7 +39,7 @@ $(function() {
 });
 
 function init_slick(){
-	$("#clients-slider-js").slick({
+	$("#homepage-clients-slider-js").slick({
 		infinite: true,
 		slidesToShow: 5,
 		slidesToScroll: 3,
@@ -79,6 +76,14 @@ function init_slick(){
 		arrows: false
 	});
 
+	$("#clients-slider-js").slick({
+		autoplay: true,
+		autoplaySpeed: 7000,
+		speed: 1500,
+		dots: true
+	});
+
+
 	$('.home-form').slick({
 		nextArrow: '#home_form_next_btn',
 		prevArrow: '#home_form_prev_btn',
@@ -99,4 +104,26 @@ function mobile_menu(){
 		$('#mobile-menu-js').slideToggle();
 	});
 }
+
+function init_odometer(){
+	$('.odometer').each(function(){
+		var data = $(this).data('value');
+		if(data){
+			$(this).html(data);
+		}
+	});
+}
+
+// gender stats animate when visible
+$(document).on('scroll', function(){
+	if($('#gender-stats').length > 0){
+		var section = $('#gender-stats').closest('section');
+		var section_top = $(section).offset().top;
+		var scroll = $(document).scrollTop();
+		var window_height = $(window).height();
+		if(scroll + window_height >= section_top){
+			init_odometer();
+		}
+	}
+})
 

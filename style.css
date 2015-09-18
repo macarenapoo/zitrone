@@ -827,6 +827,9 @@ textarea.lines {
 .bg-blue {
   background-color: #bde3f6; }
 
+.bg-dark-blue {
+  background-color: #acd3e6; }
+
 .tabs-panel {
   border: solid 1px #fff;
   display: -webkit-flex;
@@ -914,6 +917,14 @@ hgroup h1.main-logo {
   p {
     text-align: center; } }
 
+hr {
+  border: solid 1px #fff; }
+
+hr.small {
+  border: solid 2px #fff;
+  width: 100px;
+  margin: 35px auto; }
+
 .main_banner {
   padding: 0;
   min-height: 350px;
@@ -969,7 +980,9 @@ hgroup h1.main-logo {
     position: fixed;
     width: 100%;
     top: 0px;
-    border-top: none; }
+    border-top: none;
+    -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1); }
 
 .testimonials {
   border-top: solid 10px #9fcf67;
@@ -1356,12 +1369,39 @@ input, textarea {
     .news a .source {
       color: #bde3f6; }
 
-.bullets li {
-  background-image: url("images/bullets.png");
-  background-size: 25px;
-  background-repeat: no-repeat;
-  background-position: 5px center;
-  padding-left: 35px; }
+#gender-stats {
+  font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif;
+  text-align: center;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: flex; }
+  #gender-stats .stat {
+    font-size: 65px;
+    -webkit-flex: 0 0 50%;
+    -moz-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    background-repeat: no-repeat;
+    border-right: solid 3px #bde3f6; }
+    #gender-stats .stat:last-of-type {
+      border-right: none; }
+  #gender-stats .male {
+    background-image: url("images/male-icon.png");
+    background-position: 20%;
+    padding-left: 70px; }
+  #gender-stats .female {
+    background-image: url("images/female-icon.png");
+    background-position: 80%;
+    padding-right: 70px; }
+  #gender-stats .odometer.odometer-auto-theme, #gender-stats .odometer.odometer-theme-default {
+    font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif;
+    line-height: 1.1em; }
+
+.legend {
+  font-style: italic;
+  text-align: center; }
 
 .services .grid {
   background-size: contain; }
@@ -1459,15 +1499,58 @@ input, textarea {
   -ms-align-items: center;
   align-items: center; }
   .clients_logos li {
-    -webkit-flex: 1 1 auto;
-    -moz-flex: 1 1 auto;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
+    -webkit-flex: 1 1 16.666%;
+    -moz-flex: 1 1 16.666%;
+    -ms-flex: 1 1 16.666%;
+    flex: 1 1 16.666%;
     max-width: 16.6666%;
     padding: 20px; }
     @media (min-width: 0px) and (max-width: 800px) {
       .clients_logos li {
-        max-width: 33%; } }
+        max-width: 33%;
+        -webkit-flex: 1 1 33%;
+        -moz-flex: 1 1 33%;
+        -ms-flex: 1 1 33%;
+        flex: 1 1 33%; } }
+
+.main .clients_logos_section {
+  padding-top: 10px; }
+
+.clients_slider .slide {
+  position: relative; }
+  .clients_slider .slide .caption {
+    position: absolute;
+    margin: 20px;
+    bottom: 0px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 5px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -ms-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center; }
+    @media (min-width: 0px) and (max-width: 800px) {
+      .clients_slider .slide .caption {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        border-radius: 0; } }
+  .clients_slider .slide .logo {
+    height: 30px;
+    display: inline-block;
+    width: 40px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 20px; }
+  .clients_slider .slide .description {
+    display: inline-block; }
 
 #contact_forms {
   background: linear-gradient(90deg, #bde3f6 50%, #293841 50%); }
