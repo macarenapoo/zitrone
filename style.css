@@ -983,6 +983,9 @@ hr.small {
     border-top: none;
     -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1); }
+  @media (min-width: 0px) and (max-width: 800px) {
+    .submenu {
+      display: none; } }
 
 .testimonials {
   border-top: solid 10px #9fcf67;
