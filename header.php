@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css"/>
 		<link rel="stylesheet" type="text/css" href="js/odometer/odometer-theme-default.css"/>
 		<meta name=viewport content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="images/icon.png">
 		<title>Zitrone Natural</title>
 	</head>
 
