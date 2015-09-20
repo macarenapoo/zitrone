@@ -7,7 +7,7 @@
 	</ul>
 </nav>
 <div class="main about">
-	<section class="main_banner" style="background-image: url('images/uploads/banner_about_bg-image.jpg')">
+	<section class="main_banner unloaded" style="background-image: url('images/uploads/banner_about_bg-image.jpg')">
 	</section>
 	<section class="bg-blue" id="about_sub">
 		<div class="grid">

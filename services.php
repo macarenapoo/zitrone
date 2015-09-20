@@ -10,7 +10,7 @@
 </nav>
 <div class="main services">
 	<section class="bg-blue banner" id="dining_hall_sub">
-		<div class="services_banner" style="background-image: url('images/uploads/banner_dining-hall.jpg')">
+		<div class="services_banner unloaded" style="background-image: url('images/uploads/banner_dining-hall.jpg')">
 		</div>
 		<div class="grid">
 			<div class="grid__col--7">

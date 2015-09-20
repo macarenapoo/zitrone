@@ -34,7 +34,7 @@
 				</div>
 			</div>
 			<div id="mobile-menu-icon" class="visible-sm"><i class="fa fa-bars"></i></div>
-			<div class="mobile-menu visible-sm" id="mobile-menu-js">
+			<div class="mobile-menu visible-sm" id="mobile-menu-js" style="display: none;">
 				<ul>
 					<li <?php if($page == 'services.php') echo 'class="active"'; ?>><a href="services.php">Services</a></li>
 					<li <?php if($page == 'about.php') echo 'class="active"'; ?>><a href="about.php">About us</a></li>

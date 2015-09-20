@@ -44,11 +44,26 @@ hr.small{
 	margin: 35px auto;
 }
 
+hr.icons{
+	  background-image: url($path--rel+'/icons-hr.png');
+    height: 40px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 40px;
+}
+
 .main_banner{
 	padding: 0;
 	min-height: 350px;
 	background-size: cover;
 	background-position: center;
+	transition: all .6s ease-in-out;
+	background-color: $green;
+	&.unloaded{
+		min-height: 0;
+	}
 	.grid{
 		background: rgba(0,0,0,0.26);
 		width: 100%;
@@ -58,10 +73,11 @@ hr.small{
 		h2{
 			text-align: center;
 			color: $white;
-			font-size: 2.3em;
+			font-size: 4em;
+			line-height: 1em;
+			margin-bottom: 0px;
 		}
 		.grid__col--6{
-			@extend .centered;
 			width: 60%;
 			text-align: center;
 			@include mq(small){

@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 
 <div class="main clients">
-	<section class="main_banner clients_slider" id="clients-slider-js">
+	<section class="main_banner clients_slider unloaded" id="clients-slider-js">
 		<div class="slide">
 			<div class="main_banner" style="background-image: url('images/uploads/banner_about_bg-image.jpg')">
 				<div class="caption">

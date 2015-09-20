@@ -1,10 +1,11 @@
 <?php include('header.php'); ?>
 
 		<div class="main homepage">
-			<section class="main_banner" style="background-image: url('images/uploads/banner_main_bg-image.jpg')">
+			<section class="main_banner unloaded" style="background-image: url('images/uploads/banner_main_bg-image.jpg')">
 				<div class="grid">
-					<div class="grid__col--6">
-						<h2>Made fresh and with care</h2>
+					<div class="grid__col--6 centered">
+						<h2>Made fresh<br/>& with care</h2>
+						<hr class="icons" />
 						<p>Zitrone natural provides comprehensive and affordale prepared food services to large and medium-sized companies and universities, setting itself apart from the competition through its innovative dining hall model (remote kitchens) and daily delivery of fresh, pre-prepared meals.</p>
 					</div>
 				</div>
@@ -14,46 +15,91 @@
 					<h1>Our Services</h1>
 					<div class="tabs-panel">
 						<nav>
-							<ul>
+							<ul class="js-tabs-panel-nav">
 								<li class="active">
-									<a href="#section1"><span class="icon_services" style="background-image:url('images/uploads/services_icon_dinning-hall.png')"></span>Dinning Hall</a>
+									<a><span class="icon_services" style="background-image:url('images/uploads/services_icon_dinning-hall.png')"></span>Dinning Hall</a>
+									<div class="content-mobile">
+										<img src='images/uploads/banner_dining-hall.jpg'>
+										<div class="caption">
+												<p>Many companies do not have the space nor the budget to install a kitchen in their office building. Therefore, Zitrone Natural offers a service where all food is prepared off site and then brought to a small dinning hall in the client's office.</p>
+										</div>
+									</div>
 								</li>
 								<li>
-									<a href="#section2"><span class="icon_services" style="background-image:url('images/uploads/services_icon_food-cart.png')"></span>Food Carts</a>
+									<a><span class="icon_services" style="background-image:url('images/uploads/services_icon_food-cart.png')"></span>Food Carts</a>
+									<div class="content-mobile">
+										<img src='images/uploads/food-carts.jpg'>
+										<div class="caption">
+											<p>The solution for unhealthy snacking and missed meals. Nutricionally balanced, healthy food brought directly to the employees' desks.</p>
+										</div>
 								</li>
 								<li>
-									<a href="#section3"><span class="icon_services" style="background-image:url('images/uploads/services_icon_catering.png')"></span>Catering Services</a>
+									<a><span class="icon_services" style="background-image:url('images/uploads/services_icon_catering.png')"></span>Catering Services</a>
+									<div class="content-mobile">
+										<img src='images/uploads/banner_contact_us.jpg'>
+										<div class="caption">
+											<p>Zitrone offers options tailored to each business as well as options for different budgets. Clients can choose from services ranging from cocktails to hors d'oeuvres to coffee breaks to working lunches and box lunches.</p>
+										</div>
+									</div>
 								</li>
 								<li>
-									<a href="#section4"><span class="icon_services" style="background-image:url('images/uploads/services_icon_cafe.png')"></span>Zitrone Cafe</a>
+									<a><span class="icon_services" style="background-image:url('images/uploads/services_icon_cafe.png')"></span>Zitrone Cafe</a>
+									<div class="content-mobile">
+										<img src='images/uploads/zitrone-cafe.jpg'>
+										<div class="caption">
+											<p>This café service is the perfect compliment to Zitrone Natural's food cart and dining hall services. It sells different types of hot and cold beverages. "to-go" pre-packaged products, salad bar, and various snack foods.</p>
+										</div>
+									</div>
 								</li>
 								<li>
-									<a href="#section5"><span class="icon_services" style="background-image:url('images/uploads/services_icon_food-court.png')"></span>Foodcourts</a>
+									<a><span class="icon_services" style="background-image:url('images/uploads/services_icon_food-court.png')"></span>Foodcourts</a>
+									<div class="content-mobile">
+										<img src='images/uploads/banner_food-courts.jpg'>
+										<div class="caption">
+											<p>A new service offered to universities, different kitchen styles all in one same place.</p>
+										</div>
+									</div>
 								</li>
 							</ul>
 						</nav>
-						<div class="content">
-							<section id="section1" class="current">
-								<h1>Dining Hall</h1>
-								<p>Many companies do not have the space nor the budget to install a kitchen in their office building. Therefore, Zitrone Natural offers a service where all food is prepared off site and then brought to a small dinning hall in the client's office.</p>
+						<div class="content js-tabs-panel-content">
+							<section class="current" style="background-image:url('images/uploads/banner_dining-hall.jpg')">
+								<div class="caption">
+									<div>
+										<p>Many companies do not have the space nor the budget to install a kitchen in their office building. Therefore, Zitrone Natural offers a service where all food is prepared off site and then brought to a small dinning hall in the client's office.</p>
+									</div>
+								</div>
 							</section>
-							<section id="section2">
-								<h1>Food Carts</h1>
-								<p>The solution for unhealthy snacking and missed meals. Nutricionally balanced, healthy food brought directly to the employees' desks.</p>
+							<section style="background-image:url('images/uploads/banner_food-cart.jpg')">
+								<div class="caption">
+									<div>
+										<p>The solution for unhealthy snacking and missed meals. Nutricionally balanced, healthy food brought directly to the employees' desks.</p>
+									</div>
+								</div>
 							</section>
-							<section id="section3">
-								<h1>Catering Services</h1>
-								<p>Zitrone offers options tailored to each business as well as options for different budgets. Clients can choose from services ranging from cocktails to hors d'oeuvres to coffee breaks to working lunches and box lunches.</p>
+							<section style="background-image:url('images/uploads/banner_contact_us.jpg')">
+								<div class="caption">
+									<div>
+										<p>Zitrone offers options tailored to each business as well as options for different budgets. Clients can choose from services ranging from cocktails to hors d'oeuvres to coffee breaks to working lunches and box lunches.</p>
+									</div>
+								</div>
 							</section>
-							<section id="section4">
-								<h1>Zitrone Cafe</h1>
-								<p>This café service is the perfect compliment to Zitrone Natural's food cart and dining hall services. It sells different types of hot and cold beverages. "to-go" pre-packaged products, salad bar, and various snack foods.</p>
+							<section style="background-image:url('images/uploads/banner_zitrone-cafe.jpg')">
+								<div class="caption">
+									<div>
+										<p>This café service is the perfect compliment to Zitrone Natural's food cart and dining hall services. It sells different types of hot and cold beverages. "to-go" pre-packaged products, salad bar, and various snack foods.</p>
+									</div>
+								</div>
 							</section>
-							<section id="section5">
-								<h1>Foodcourts</h1>
-								<p>A new service offered to universities, different kitchen styles all in one same place.</p>
+							<section style="background-image:url('images/uploads/banner_food-courts.jpg')">
+								<div class="caption">
+									<div>
+										<p>A new service offered to universities, different kitchen styles all in one same place.</p>
+									</div>
+								</div>
 							</section>
 						</div>
+					
 					</div>
 				</div>
 			</section>

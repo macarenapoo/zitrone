@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 
 <div class="main clients">
-	<section class="main_banner" style="background-image: url('images/uploads/banner_contact_us.jpg')">
+	<section class="main_banner unloaded" style="background-image: url('images/uploads/banner_contact_us.jpg')">
 	</section>
 	<section id="contact_forms">
 		<div class="grid">
