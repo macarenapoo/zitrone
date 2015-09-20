@@ -10,13 +10,13 @@
 						<label>Connect with us:</label>
 						<ul>
 							<li class="social-media-icon twitter">
-								<a href="https://twitter.com/ZitroneNatural">Twitter</a>
+								<a href="https://twitter.com/ZitroneNatural" target="_blank">Twitter</a>
 							</li>
 							<li class="social-media-icon facebook">
-								<a href="https://www.facebook.com/zitronenatural?fref=ts">Facebook</a>
+								<a href="https://www.facebook.com/zitronenatural?fref=ts" target="_blank">Facebook</a>
 							</li>
 							<li class="social-media-icon instagram">
-								<a href="#">Instagram</a>
+								<a href="http://instagram.com/ZitroneNatural" target="_blank">Instagram</a>
 							</li>
 						</ul>
 					</div>
