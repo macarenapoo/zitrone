@@ -1,12 +1,14 @@
 <?php include('header.php'); ?>
 
 		<div class="main homepage">
-			<section class="main_banner unloaded" style="background-image: url('images/uploads/banner_main_bg-image.jpg')">
-				<div class="grid">
-					<div class="grid__col--6 centered">
-						<h2>Made fresh<br/>& with care</h2>
-						<hr class="icons" />
-						<p>Zitrone natural provides comprehensive and affordale prepared food services to large and medium-sized companies and universities, setting itself apart from the competition through its innovative dining hall model (remote kitchens) and daily delivery of fresh, pre-prepared meals.</p>
+			<section class="main_banner" style="background-image: url('images/uploads/banner_main_bg-image.jpg')">
+				<div class="banner  unloaded">
+					<div class="grid">
+						<div class="grid__col--6 centered">
+							<h2>Made fresh<br/>& with care</h2>
+							<hr class="icons" />
+							<p>Zitrone natural provides comprehensive and affordale prepared food services to large and medium-sized companies and universities, setting itself apart from the competition through its innovative dining hall model (remote kitchens) and daily delivery of fresh, pre-prepared meals.</p>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -99,7 +101,7 @@
 								</div>
 							</section>
 						</div>
-					
+
 					</div>
 				</div>
 			</section>
@@ -119,7 +121,7 @@
 						</div>
 					</div>
 				</div>
-			</section> 
+			</section>
 			<section id="home_testimonials" class="testimonials-container">
 				<div class="grid">
 					<div class="grid__col--14 centered">
@@ -172,35 +174,40 @@
 						<form>
 							<div class="home-form">
 								<div class="slide">
-									<div class="field">
-										<label class="icon_form company">Company</label>
-										<input type="text" placeholder="Company" class="company">
+									<div class="field field-wrap">
+										<label>Company</label>
+										<input  class="icon_form company" type="text" placeholder="Company" class="company">
 									</div>
-									<div class="field">
-										<label class="icon_form contact">Contact</label>
-										<input type="text" placeholder="Contact Name">
+									<div class="field field-wrap">
+										<label>Contact</label>
+										<input  class="icon_form contact" type="text" placeholder="Contact Name">
 									</div>
-									<div class="field">
-										<label class="icon_form phone">Phone</label>
-										<input type="text" placeholder="Contact Phone Number">
+									<div class="field field-wrap">
+										<label>Phone</label>
+										<input class="icon_form phone" type="text" placeholder="Contact Phone Number">
 									</div>
-									<div class="field">
-										<label class="icon_form email">Email</label>
-										<input type="text" placeholder="Contact Email">
+									<div class="field field-wrap">
+										<label>Email</label>
+										<input class="icon_form email" type="text" placeholder="Contact Email">
 									</div>
 									<a href="#" class="btn fr" id="home_form_next_btn">Next</a>
-								</div>	
+								</div>
 								<div class="slide">
 									<p>What services are you interested in?</p>
 								  <input type="hidden" name="services"/>
-								  <ul class="form_checkbox">
-								  	<li><span></span>Dinning Hall</li>
-								  	<li><span></span>Food Cart</li>
-								  	<li><span></span>Catering</li>
-								  	<li><span></span>Food Courts</li>
-								  	<li><span></span>Zitrone Cafe</li>
-								  </ul>
-							  	<textarea placeholder="Additional Comments" class="lines" name="comments"></textarea>
+									<div class="form_checkbox-wrap list-checkbox-wrap">
+									  <ul class="form_checkbox">
+									  	<li><input type="checkbox">Dinning Hall</li>
+									  	<li><input type="checkbox">Food Cart</li>
+									  	<li><input type="checkbox">Catering</li>
+									  	<li><input type="checkbox">Food Courts</li>
+									  	<li><input type="checkbox">Zitrone Cafe</li>
+									  </ul>
+									</div>
+									<div class="field field-wrap textarea-wrap">
+										<label>Additional Comments</label>
+							  		<textarea class="lines" name="comments"></textarea>
+									</div>
 							  	<a href="#" class="btn fl" id="home_form_prev_btn">Back</a>
 							  	<a href="#" class="btn fr submit">Send</a>
 							  </div>

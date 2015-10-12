@@ -17,3 +17,24 @@
 	padding: 0;
 }
 
+.homepage .main_banner{
+	min-height: 0;
+	.banner{
+		max-height: 600px;
+		overflow: visible;
+		@include transition(all .6s ease-in-out);
+		.grid{
+			opacity: 1;
+			@include transition(all .6s ease-in-out);
+			transition-delay: .3s;
+			-webkit-transition-delay: .3s;
+		}
+		&.unloaded{
+				max-height: 0;
+				overflow: hidden;
+				.grid{
+					opacity: 0;
+				}
+		}
+	}
+}

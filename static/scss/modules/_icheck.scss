@@ -1,0 +1,58 @@
+.icheckbox, .iradio {
+  display: inline-block;
+  *display: inline;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  border: solid 2px #e7edef;
+  cursor: pointer;
+  margin-top: 0px;
+  margin-right: 10px; }
+
+.icheckbox {
+  border-radius: 2px; }
+.icheckbox.disabled {
+  background-color: #e7edef;
+  border: none; }
+.icheckbox.disabled.checked {
+  background-color: #e7edef; }
+.icheckbox.disabled.checked:before {
+  color: #f5f9fa; }
+.icheckbox.checked:before {
+  font-family: 'FontAwesome';
+  content: '\f00c';
+  display: block;
+  color: $green;
+  line-height: 21px;
+  font-size: 17px;
+  text-align: center; }
+
+.iradio {
+  border-radius: 50%; }
+.iradio.disabled {
+  background-color: #e7edef; }
+.iradio.disabled.checked {
+  position: relative;
+  background-color: #e7edef; }
+.iradio.disabled.checked:before {
+  content: '';
+  display: block;
+  background: #b8c7cd;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  margin-top: 3px;
+  margin-left: 3px;
+  border-radius: 50%; }
+.iradio.checked:before {
+  content: '';
+  display: block;
+  background-color: #0098db;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  margin-top: 3px;
+  margin-left: 3px;
+  border-radius: 50%; }

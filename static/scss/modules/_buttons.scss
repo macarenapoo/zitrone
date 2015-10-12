@@ -9,18 +9,18 @@
 [class^="btn--"] {
   @extend %center-align;
   @extend %btn;
-  margin-bottom: em(20px, 14px); 
+  margin-bottom: em(20px, 14px);
   @media (min-width: 1px) and (max-width: 768px) {
   	width: 100%;
   }
-  @media (min-width: 769px) { 
+  @media (min-width: 769px) {
     width: auto;
     display: inline-block;
     @include doubly(20px);
   }
 }
 
-.btn{
+.btn, .ninja-forms-mp-nav{
   padding: 10px 50px;
   border: solid 1px $white;
   margin: 40px 0;
@@ -28,9 +28,18 @@
   text-transform: uppercase;
   font-family: $font-family--secondary;
   font-size: em(20px);
+	@include transition( background .15s ease-in-out );
+	&:hover, &:active{
+		background-color: $white;
+		color: $grey;
+	}
   &.submit{
     border-color: $green;
     color: $green;
+		&:hover, &:active{
+			background-color: $green;
+			color: $white;
+		}
     &.white{
       border-color: $white;
       color: $white;
@@ -38,6 +47,18 @@
     .bg-blue &{
       border-color: $grey;
       color: $grey;
+			&:hover, &:active{
+				background-color: $grey;
+				color: $white;
+			}
     }
   }
+}
+
+.ninja-forms-mp-next{
+		float: right;
+}
+
+.ninja-forms-mp-prev{
+		float: left;
 }

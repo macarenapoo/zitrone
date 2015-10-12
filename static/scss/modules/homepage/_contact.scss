@@ -13,11 +13,12 @@ input, textarea{
 	margin-bottom: 50px;
 }
 
-.form_checkbox{
+.form_checkbox-wrap.list-checkbox-wrap ul{
 	@include flex-display();
 	@include flex-wrap(wrap);
 	width: 90%;
 	margin: 0 auto;
+	float: none;
 	li{
 		width: 33%;
 		margin: 12px 0;
@@ -83,4 +84,3 @@ input, textarea{
     padding: 14px 0 15px 40px;
 	}
 }
-

@@ -54,12 +54,16 @@ hr.icons{
     margin: 40px;
 }
 
+header{
+	position: relative;
+}
+
 .main_banner{
 	padding: 0;
 	min-height: 350px;
 	background-size: cover;
 	background-position: center;
-	transition: all .6s ease-in-out;
+	@include transition(all .6s ease-in-out);
 	background-color: $green;
 	&.unloaded{
 		min-height: 0;
@@ -91,10 +95,6 @@ hr.icons{
 			padding: 25px 0;
 		}
 	}
-}
-
-.footer-info{
-	padding: 7px 0;
 }
 
 .submenu{

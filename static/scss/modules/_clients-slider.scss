@@ -20,6 +20,9 @@
 			}
 		}
 	}
+}
+
+.clients-slider, .clients_slider{
 	.slick-prev, .slick-next{
 		width: 20px;
 		height: 40px;
@@ -50,6 +53,7 @@
 		}
 	}
 }
+
 
 #home_clients{
 	@include mq(small){

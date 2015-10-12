@@ -4,25 +4,43 @@
 	<section class="main_banner clients_slider unloaded" id="clients-slider-js">
 		<div class="slide">
 			<div class="main_banner" style="background-image: url('images/uploads/banner_about_bg-image.jpg')">
-				<div class="caption">
-					<div class="logo" style="background-image:url(images/uploads/clients_american-express.png)"></div>
-					<div class="description">Dining Hall American Express</div>
+				<div class="caption-container">
+					<div class="grid">
+						<div class="grid__col--16">
+							<div class="caption">
+								<div class="logo" style="background-image:url(images/uploads/clients_american-express.png)"></div>
+								<div class="description">Dining Hall American Express</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="slide">
 			<div class="main_banner" style="background-image: url('images/uploads/banner_contact_us.jpg')">
-				<div class="caption">
-					<div class="logo" style="background-image:url(images/uploads/clients_dhl.jpg)"></div>
-					<div class="description">Dining Hall DHL</div>
+				<div class="caption-container">
+					<div class="grid">
+						<div class="grid__col--16">
+							<div class="caption">
+								<div class="logo" style="background-image:url(images/uploads/clients_dhl.jpg)"></div>
+								<div class="description">Dining Hall DHL</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="slide">
 			<div class="main_banner" style="background-image: url('images/uploads/banner_food-courts.jpg')">
-				<div class="caption">
-					<div class="logo" style="background-image:url(images/uploads/clients_gbm.jpg)"></div>
-					<div class="description">Catering GBM</div>
+				<div class="caption-container">
+					<div class="grid">
+						<div class="grid__col--16">
+							<div class="caption">
+								<div class="logo" style="background-image:url(images/uploads/clients_gbm.jpg)"></div>
+								<div class="description">Catering GBM</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

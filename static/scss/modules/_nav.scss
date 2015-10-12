@@ -5,17 +5,17 @@
 .nav {
   margin-top: em(20px);
   margin-bottom: em(30px);
-  
+
   @include e(item) {
     @extend %nav-item-disp;
     a {
       @extend %nav-item-link;
       color: palette(grey);
       &:hover {
-        @extend %nav-item-on;  
+        @extend %nav-item-on;
       }
     }
-    @include m(current) { 
+    @include m(current) {
       @extend %nav-item-disp;
       a {
         @extend %nav-item-link;
@@ -39,7 +39,7 @@
       color: $green;
     }
   }
-  .active{
+  .active, .current-menu-item{
     background-color: palette(grey, xx-light);
     border-top: solid 5px $green;
     a{
@@ -78,7 +78,7 @@
     padding: 15px 0;
     border-top: solid 1px palette(gray, x-light);
   }
-  .active{
+  .active, .current-menu-item{
     border-top: none;
   }
 }

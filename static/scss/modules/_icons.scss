@@ -36,50 +36,54 @@
 }
 
 .icon_form{
-		position: absolute;
 		left: 0;
 		background-image: url($path--rel+"/contact_icons.png");
-		width: 30px;
-		height: 30px;
-		top: 10px;
-		left: 10px;
-		text-indent: -9999px;
 		background-repeat: no-repeat;
-		background-size: 100% auto;
+		background-size: 30px;
+		background-position-x: 5px;
+		.contact-us-info &, .contact-us-social &{
+			position: absolute;
+			width: 30px;
+			height: 30px;
+			top: 10px;
+			left: 0px;
+			text-indent: -9999px;
+			background-position-x: 0px;
+		}
 		.bg-blue &{
 			background-image: url($path--rel+"/contact_icons_dark.png");
 		}
 		&.company{
-			 background-position: 0 0px;
+			 background-position-y: 0px;
 		}
 		&.contact{
-			 background-position: 0 -30px;
+			 background-position-y: -30px;
 		}
 		&.phone{
-			 background-position: 0 -60px;
+			 background-position-y: -60px;
 		}
 		&.email{
-			 background-position: 0 -90px;
+			 background-position-y: -90px;
 		}
 		&.age{
-			background-position: 0 -150px;
+			background-position-y: -150px;
 		}
 		&.school{
-			background-position: 0 -180px;
+			background-position-y: -180px;
 		}
 		&.area{
-			background-position: 0 -210px;
+			background-position-y: -210px;
 		}
 		&.zitrone{
-			background-position: 0 -120px;
+			background-position-y: -120px;
 		}
 		&.facebook{
 			background-image: url($path--rel+"/social_icons_dark.png");
-			background-position: 0 -30px;
+			background-position-y: -30px;
 		}
 		&.instagram{
 			background-image: url($path--rel+"/social_icons_dark.png");
-			background-position: 0 -60px;
+			background-position-y: -60px;
 		}
 		&.twitter{
 			background-image: url($path--rel+"/social_icons_dark.png");
@@ -94,13 +98,13 @@
 		background-size: 100% auto;
 		@include flex(0 0 40px);
 		&.news{
-			background-position: 0px 40px;
+			background-position-y: 0px 120px;
 		}
 		&.file{
 			background-position: 0px 80px;
 		}
 		&.video{
-			background-position: 0px 120px;
+			background-position: 0px 40px;
 		}
 		&.link{
 			background-position: 0px 0px;

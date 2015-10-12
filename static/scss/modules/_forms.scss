@@ -20,7 +20,7 @@
 		background: palette(grey, xx-light);
 		color: palette(black, dark);
 		font-weight: $font-weight--light;
-		&:focus {	
+		&:focus {
 			border-color: $color-primary;
 		}
 	}
@@ -32,14 +32,89 @@
 }
 
 form{
-	.field{
+	.field, .field-wrap{
 		border-bottom: solid 1px $white;
 		position: relative;
-		padding-left: 40px;
+		margin-bottom: 20px;
+		input[type=text]{
+			padding: 0px 15px 0px 50px;
+			margin: 15px 0;
+			line-height: 30px;
+		}
 		.bg-blue &{
 			border-bottom: solid 1px $grey;
 		}
 	}
+}
+
+#home_contact .field-wrap, #page .field-wrap, .field-wrap{
+	& > label{
+		text-indent: -9999px;
+		position: absolute;
+		right: 0px;
+		width: 30px;
+		height: 30px;
+		top: -20px;
+		.ninja-forms-req-symbol{
+			display: block;
+			width: 100%;
+			height: 100%;
+			content: '*';
+			text-indent: 0;
+			text-align: center;
+			font-size: 30px;
+			line-height: 30px;
+			color: $blue;
+			.bg-blue &{
+				color: $grey !important;
+			}
+		}
+	}
+	&.submit-wrap{
+		border: none;
+		float: right;
+	}
+}
+.ninja-forms-req-symbol{
+	color: $blue !important;
+}
+
+.ninja-forms-required-items{
+	display: none;
+}
+
+.ninja-forms-field-error{
+	position: absolute;
+	right: 0px;
+	color: $blue !important;
+	.bg-blue &{
+		color: $grey !important;
+	}
+}
+
+.ninja-forms-error-msg{
+	text-align: center;
+	color: $blue;
+	.bg-blue &{
+		color: $grey !important;
+	}
+}
+
+#home_contact, #page{
+	.textarea-wrap{
+		border: none;
+		& > label{
+			text-indent: 0px;
+			position: static;
+			width: auto;
+			height: auto;
+			border: none;
+		}
+	}
+}
+
+#home_contact .list-checkbox-wrap{
+	border: none;
 }
 
 textarea.lines{
@@ -50,7 +125,6 @@ textarea.lines{
   padding: 0;
   height: 100px;
   line-height: 2em;
-  margin-top: 20px;
   .bg-blue &{
   	background-image: linear-gradient( $grey 0px, transparent 2px);
   }
@@ -61,15 +135,15 @@ textarea.lines{
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: palette(gray, light);  
+   color: palette(gray, light);
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: palette(gray, light);  
+   color: palette(gray, light);
 }
 
-:-ms-input-placeholder {  
-   color: palette(gray, light);  
+:-ms-input-placeholder {
+   color: palette(gray, light);
 }
 
 .bg-blue{
@@ -78,14 +152,14 @@ textarea.lines{
 	}
 
 	:-moz-placeholder { /* Firefox 18- */
-	   color: lighten(palette(gray, light), 10%); 
+	   color: lighten(palette(gray, light), 10%);
 	}
 
 	::-moz-placeholder {  /* Firefox 19+ */
-	   color: lighten(palette(gray, light), 10%); 
+	   color: lighten(palette(gray, light), 10%);
 	}
 
-	:-ms-input-placeholder {  
-	   color: lighten(palette(gray, light), 10%);  
+	:-ms-input-placeholder {
+	   color: lighten(palette(gray, light), 10%);
 	}
 }

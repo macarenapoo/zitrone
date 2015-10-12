@@ -10,6 +10,7 @@ $(document).ready( function(){
 	$('.unloaded').each(function(){
 		$(this).removeClass('unloaded');
 	});
+	$('.form_checkbox input[type=checkbox]').iCheck();
 });
 
 // Fixed Submenu
@@ -151,4 +152,3 @@ $(document).on('scroll', function(){
 		}
 	}
 })
-
