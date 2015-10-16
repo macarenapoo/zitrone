@@ -1129,6 +1129,18 @@ section.testimonials-container {
 .footer-info {
   padding: 11px 0; }
 
+#lang_sel_footer {
+  background-color: #546670;
+  border: none;
+  font-family: "Karla", Helvetica, Arial, sans-serif;
+  font-size: 11px; }
+  #lang_sel_footer a {
+    color: #fbfbfb; }
+  #lang_sel_footer li {
+    border-right: solid 1px #e9ebec; }
+    #lang_sel_footer li:last-of-type {
+      border: none; }
+
 .social-media {
   display: -webkit-flex;
   display: -moz-flex;

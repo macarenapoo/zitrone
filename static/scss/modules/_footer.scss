@@ -15,3 +15,19 @@
 .footer-info{
 	padding: 11px 0;
 }
+
+#lang_sel_footer{
+	background-color: darken( palette(gray, light), 5%);
+	border: none;
+	font-family: $font-family--primary;
+	font-size: 11px;
+	a{
+		color: palette( gray, xx-light );
+	}
+	li{
+		border-right: solid 1px palette( gray, x-light);
+		&:last-of-type{
+			border: none;
+		}
+	}
+}

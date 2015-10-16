@@ -649,16 +649,29 @@ textarea.lines {
   color: white;
   text-transform: uppercase;
   font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif;
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  -moz-transition: background 0.15s ease-in-out;
+  -o-transition: background 0.15s ease-in-out;
+  -webkit-transition: background 0.15s ease-in-out;
+  transition: background 0.15s ease-in-out; }
+  .btn:hover, .btn:active, .ninja-forms-mp-nav:hover, .ninja-forms-mp-nav:active {
+    background-color: #fff;
+    color: #293841; }
   .btn.submit, .ninja-forms-mp-nav.submit {
     border-color: #9fcf67;
     color: #9fcf67; }
+    .btn.submit:hover, .btn.submit:active, .ninja-forms-mp-nav.submit:hover, .ninja-forms-mp-nav.submit:active {
+      background-color: #9fcf67;
+      color: #fff; }
     .btn.submit.white, .ninja-forms-mp-nav.submit.white {
       border-color: #fff;
       color: #fff; }
     .bg-blue .btn.submit, .bg-blue .ninja-forms-mp-nav.submit {
       border-color: #293841;
       color: #293841; }
+      .bg-blue .btn.submit:hover, .bg-blue .btn.submit:active, .bg-blue .ninja-forms-mp-nav.submit:hover, .bg-blue .ninja-forms-mp-nav.submit:active {
+        background-color: #293841;
+        color: #fff; }
 
 .ninja-forms-mp-next {
   float: right; }
@@ -1115,6 +1128,18 @@ section.testimonials-container {
 
 .footer-info {
   padding: 11px 0; }
+
+#lang_sel_footer {
+  background-color: #546670;
+  border: none;
+  font-family: "Karla", Helvetica, Arial, sans-serif;
+  font-size: 11px; }
+  #lang_sel_footer a {
+    color: #fbfbfb; }
+  #lang_sel_footer li {
+    border-right: solid 1px #e9ebec; }
+    #lang_sel_footer li:last-of-type {
+      border: none; }
 
 .social-media {
   display: -webkit-flex;
