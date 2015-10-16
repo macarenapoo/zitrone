@@ -80,6 +80,9 @@ header{
 			font-size: 4em;
 			line-height: 1em;
 			margin-bottom: 0px;
+			@include mq(small){
+				font-size: 3em;
+			}
 		}
 		.grid__col--6{
 			width: 60%;
