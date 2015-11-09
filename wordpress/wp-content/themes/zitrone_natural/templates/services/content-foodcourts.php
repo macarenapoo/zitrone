@@ -22,4 +22,22 @@
     <?php endif; ?>
 
   </div>
+  <?php if( have_rows('zitrone_express')): 
+    while ( have_rows('zitrone_express') ): the_row();
+  ?>
+  <div class="grid">
+      <div class="grid__col--10 centered">
+        <div class="zitrone-express">
+          <div class="logo">
+            <img src="<?php the_sub_field('logo'); ?>"/>
+          </div>
+          <div class="description">
+            <?php the_sub_field('description'); ?>
+          </div>
+        </div>
+      </div>
+    </div>
+  <?php 
+    endwhile;
+  endif; ?>
 </section>

@@ -831,6 +831,7 @@ textarea.lines {
 
 .bg-dark {
   background-color: #293841;
+  background-image: url(images/line-pattern.png);
   color: #fff; }
   .bg-dark h1, .bg-dark h2, .bg-dark h3, .bg-dark h4 {
     color: #fff; }
@@ -863,7 +864,8 @@ textarea.lines {
     flex: 0 0 30%; }
     .tabs-panel nav li {
       border-bottom: solid 1px #fff;
-      cursor: pointer; }
+      cursor: pointer;
+      background: #293841; }
       .tabs-panel nav li:last-of-type {
         border: none; }
       .tabs-panel nav li.active {
@@ -879,6 +881,13 @@ textarea.lines {
               color: #fff; }
               .tabs-panel nav li.active a span {
                 background-position: 0 0; } }
+      @media (min-width: 0px) and (max-width: 800px) {
+        .tabs-panel nav li.mobile-active {
+          background: #9fcf67; }
+          .tabs-panel nav li.mobile-active a {
+            color: #293841; }
+            .tabs-panel nav li.mobile-active a span {
+              background-position: 0 -40px; } }
       @media (min-width: 0px) and (max-width: 800px) {
         .tabs-panel nav li:first-of-type .content-mobile {
           display: block; } }
@@ -1483,10 +1492,10 @@ input, textarea {
     display: -ms-flexbox;
     display: -ms-flex;
     display: flex;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    -ms-align-items: center;
-    align-items: center; }
+    -webkit-align-items: flex-start;
+    -moz-align-items: flex-start;
+    -ms-align-items: flex-start;
+    align-items: flex-start; }
     @media (min-width: 0px) and (max-width: 800px) {
       .news li {
         -webkit-flex: 100%;
@@ -1516,6 +1525,9 @@ input, textarea {
     border-right: solid 3px #bde3f6; }
     #gender-stats .stat:last-of-type {
       border-right: none; }
+    @media (min-width: 0px) and (max-width: 800px) {
+      #gender-stats .stat {
+        font-size: 60px; } }
   #gender-stats .male {
     background-image: url("images/male-icon.png");
     background-position: 20%;
@@ -1627,6 +1639,31 @@ input, textarea {
   background-position: 5px top;
   padding-left: 40px;
   margin-bottom: 25px; }
+
+.zitrone-express {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  margin-top: 40px; }
+  .zitrone-express .logo {
+    margin: 0px auto;
+    margin-right: 40px; }
+  @media (min-width: 0px) and (max-width: 800px) {
+    .zitrone-express {
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin: 30px 0; }
+      .zitrone-express .logo {
+        width: 50%;
+        margin: 0 auto; } }
 
 .clients .main_banner {
   min-height: 450px; }

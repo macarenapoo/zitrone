@@ -18,7 +18,7 @@
 					<div class="tabs-panel">
 						<nav>
 							<ul class="js-tabs-panel-nav">
-								<li class="active">
+								<li class="active mobile-active">
 									<a><span class="icon_services" style="background-image:url('images/uploads/services_icon_dinning-hall.png')"></span>Dinning Hall</a>
 									<div class="content-mobile">
 										<img src='images/uploads/banner_dining-hall.jpg'>

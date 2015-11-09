@@ -74,6 +74,18 @@
 				</li>
 			</ul>
 		</div>
+		<div class="grid">
+			<div class="grid__col--10 centered">
+				<div class="zitrone-express">
+					<div class="logo">
+						<img src="images/uploads/zitrone_express.png"/>
+					</div>
+					<div class="description">
+						<p>For medium-size and large companies we can also provide a convenience store, where we offer a wide variety of retail products.</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 	<section id="zitrone_cafe_sub">
 		<div class="grid">

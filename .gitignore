@@ -1,3 +1,5 @@
 static/scss/.sass-cache/*
 .codekit-cache
 config.codekit
+wordpress/wp-content/uploads/*
+

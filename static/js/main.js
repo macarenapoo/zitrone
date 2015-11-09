@@ -109,6 +109,8 @@ function init_slick(){
 				if($(this).children('.content-mobile').css('display') === 'none'){
 					$('.js-tabs-panel-nav .content-mobile').slideUp();
 					$(this).children('.content-mobile').slideToggle();
+					$('.js-tabs-panel-nav li').removeClass('mobile-active');
+					$(this).addClass('mobile-active');
 				}
 			}else{
 				$('.js-tabs-panel-content').slick('slickGoTo', index);

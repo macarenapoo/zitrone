@@ -3,7 +3,7 @@
     <ul class="js-tabs-panel-nav">
       <?php $i = -1; ?>
       <?php while( have_rows('services') ): the_row(); $i++; ?>
-        <li <?php if($i == 0){ echo 'class="active"'; }?>>
+        <li <?php if($i == 0){ echo 'class="active mobile-active"'; }?>>
           <a><span class="icon_services" style="background-image:url('<?php the_sub_field("icon"); ?>')"></span><?php the_sub_field('name'); ?></a>
           <div class="content-mobile">
             <img src="<?php the_sub_field('image'); ?>">
