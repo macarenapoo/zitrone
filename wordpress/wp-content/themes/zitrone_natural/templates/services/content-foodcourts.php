@@ -39,5 +39,6 @@
     </div>
   <?php 
     endwhile;
+    
   endif; ?>
 </section>
