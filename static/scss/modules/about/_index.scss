@@ -49,7 +49,7 @@
 		margin: 0 2% 20px;
 		@include flex(0 0 46%);
 		@include flex-display();
-		@include align-items(center);
+		@include align-items(flex-start);
 		@include mq(small){
 			@include flex(100%);
 		}
@@ -73,6 +73,9 @@
     border-right: solid 3px $blue;
     &:last-of-type{
     	border-right: none;
+    }
+    @include mq(small){
+    	font-size: 60px;
     }
 	}
 	.male{

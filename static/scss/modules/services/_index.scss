@@ -120,3 +120,21 @@
 		margin-bottom: 25px;
 	}
 }
+
+.zitrone-express{
+	@include flex-display(flex);
+	@include align-items(center);
+	margin-top: 40px;
+	.logo{
+		margin: 0px auto;
+		margin-right: 40px;
+	}
+	@include mq(small){
+		@include flex-direction(column);
+		margin: 30px 0;
+		.logo{
+			width: 50%;
+			margin: 0 auto;
+		}
+	}
+}

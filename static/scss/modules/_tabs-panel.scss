@@ -14,11 +14,11 @@
 		li{
 			border-bottom: solid 1px $white;
 			cursor: pointer;
+			background: $grey;
 			&:last-of-type{
 				border: none;
 			}
 			&.active{
-
 				background: $green;
 				a{
 					color: $grey;
@@ -32,6 +32,17 @@
 						color: $white;
 						span{
 							background-position: 0 0;
+						}
+					}
+				}
+			}
+			&.mobile-active{
+				@include mq(small){
+					background: $green;
+					a{
+						color: $grey;
+						span{
+							background-position: 0 -40px;
 						}
 					}
 				}
