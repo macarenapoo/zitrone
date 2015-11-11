@@ -4,7 +4,9 @@
       <?php
         $args = array(
           'post_type' => 'client',
-          'posts_per_page' => -1
+          'posts_per_page' => -1,
+          'meta_key' => 'active',
+          'meta_value' => 1
         );
         $query = new WP_Query( $args );
 

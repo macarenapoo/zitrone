@@ -3,6 +3,11 @@
   <?php
 
     switch( get_sub_field('type') ) {
+        case 'file':
+            ?>
+              <a href="<?php the_sub_field('file'); ?>" target="_blank">
+            <?php
+          break;
         default:
             ?>
               <a href="<?php the_sub_field('link'); ?>" class="wplightbox" target="_blank">
