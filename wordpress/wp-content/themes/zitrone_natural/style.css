@@ -921,6 +921,7 @@ textarea.lines {
     display: inline-block;
     height: auto;
     margin: 0px;
+    width: 70%;
     -webkit-flex: 1 1 70%;
     -moz-flex: 1 1 70%;
     -ms-flex: 1 1 70%;
